@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.2.6f1
+CRC: 4121325110
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e55239e568be0d85afaa0aa5bf24df48
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bca0e177252dc7ae0f9b953a4a5c608f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d796bae249e7ff448d5474b4aff6b93b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ithappy/Animals_FREE/Prefabs/Pinguin_001.prefab
+Dependencies: []
