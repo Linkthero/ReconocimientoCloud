@@ -11,7 +11,13 @@
           {
             "name": "AnimationClip",
             "scenes": [
-              "pinguino"
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "pinguino",
+              "tigre"
             ],
             "dependencyType": 0,
             "icon": null
@@ -19,7 +25,13 @@
           {
             "name": "Animator",
             "scenes": [
-              "pinguino"
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "pinguino",
+              "tigre"
             ],
             "dependencyType": 0,
             "icon": null
@@ -27,7 +39,13 @@
           {
             "name": "AnimatorController",
             "scenes": [
-              "pinguino"
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "pinguino",
+              "tigre"
             ],
             "dependencyType": 1,
             "icon": null
@@ -75,6 +93,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -89,6 +108,7 @@
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -144,6 +164,7 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -164,6 +185,7 @@
           {
             "name": "Cubemap",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -184,8 +206,15 @@
           {
             "name": "EditorExtension",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity",
-              "pinguino"
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "pinguino",
+              "tigre"
             ],
             "dependencyType": 1,
             "icon": null
@@ -199,8 +228,15 @@
           {
             "name": "GameObject",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity",
-              "pinguino"
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "pinguino",
+              "tigre"
             ],
             "dependencyType": 0,
             "icon": null
@@ -232,6 +268,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
@@ -240,6 +277,7 @@
           {
             "name": "Light",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -266,6 +304,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -280,8 +319,15 @@
           {
             "name": "Material",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity",
-              "pinguino"
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "pinguino",
+              "tigre"
             ],
             "dependencyType": 0,
             "icon": null
@@ -289,8 +335,14 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity",
-              "pinguino"
+              "Assets/Scenes/MenuInicio.unity",
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "pinguino",
+              "tigre"
             ],
             "dependencyType": 0,
             "icon": null
@@ -298,7 +350,7 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/MenuInicio.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -306,7 +358,7 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/MenuInicio.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -314,7 +366,14 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/MenuInicio.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "tigre"
             ],
             "dependencyType": 0,
             "icon": null
@@ -328,7 +387,14 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/MenuInicio.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "tigre"
             ],
             "dependencyType": 1,
             "icon": null
@@ -336,8 +402,15 @@
           {
             "name": "NamedObject",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity",
-              "pinguino"
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "pinguino",
+              "tigre"
             ],
             "dependencyType": 1,
             "icon": null
@@ -375,6 +448,7 @@
           {
             "name": "RectTransform",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -389,6 +463,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -421,8 +496,15 @@
           {
             "name": "Shader",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity",
-              "pinguino"
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "pinguino",
+              "tigre"
             ],
             "dependencyType": 0,
             "icon": null
@@ -436,7 +518,13 @@
           {
             "name": "SkinnedMeshRenderer",
             "scenes": [
-              "pinguino"
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "pinguino",
+              "tigre"
             ],
             "dependencyType": 0,
             "icon": null
@@ -456,6 +544,7 @@
           {
             "name": "Sprite",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -962,7 +1051,13 @@
           {
             "name": "CharacterController",
             "scenes": [
-              "pinguino"
+              "caballo",
+              "ciervo",
+              "gallina",
+              "gato",
+              "perro",
+              "pinguino",
+              "tigre"
             ],
             "dependencyType": 0,
             "icon": null
@@ -976,7 +1071,7 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/MenuInicio.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1364,6 +1459,7 @@
           {
             "name": "Font",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -1407,6 +1503,7 @@
           {
             "name": "Canvas",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -1415,7 +1512,7 @@
           {
             "name": "CanvasGroup",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/MenuInicio.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1423,6 +1520,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
+              "Assets/Scenes/MenuInicio.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,

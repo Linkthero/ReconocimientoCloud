@@ -12,6 +12,7 @@ public class MetaDatos
     public string nombre;
     public string URL;
     public string puntuacion;
+    public string info;
 
     public static MetaDatos CreateFromJSON(string jsonString)
     {
@@ -22,6 +23,10 @@ public class MetaDatos
 
 public class Script : MonoBehaviour
 {
+    [SerializeField] public TextMeshProUGUI txtAnimalDetectado;
+    [SerializeField] public TextMeshProUGUI txtInfo;
+    [SerializeField] public GameObject imageTarget;
+    private GameObject prefabAnimal;
     CloudRecoBehaviour mCloudRecoBehaviour;
     bool mIsScanning = false;
     string mTargetMetadata = "";
@@ -82,14 +87,22 @@ public class Script : MonoBehaviour
         MetaDatos datos;
         datos = MetaDatos.CreateFromJSON(cloudRecoSearchResult.MetaData);
 
+        //GameObject animal = GameObject.FindGameObjectWithTag("animal");
+        //if (animal != null)
+        //{
+        //    Destroy(animal);
+        //}
+
         StartCoroutine(GetAssetBundle(datos.URL));
         // Store the target metadata
         mTargetMetadata = datos.nombre;
+        txtAnimalDetectado.text = datos.nombre;
+        txtInfo.text = datos.info;
         //txt.text = cloudRecoSearchResult.TargetName;
 
         // Stop the scanning by disabling the behaviour
         mCloudRecoBehaviour.enabled = false;
-        reconocerImagen();
+        //reconocerImagen();
 
 
         // Build augmentation based on target 
@@ -116,42 +129,43 @@ public class Script : MonoBehaviour
                 // Reset Behaviour
                 mCloudRecoBehaviour.enabled = true;
                 mTargetMetadata = "";
+                borrarAnimal();
             }
         }
     }
 
-    public void reconocerImagen()
-    {
-        for (int i = 0; i < ImageTargetTemplate.transform.childCount; i++)
-        {
-            ImageTargetTemplate.transform.GetChild(i).gameObject.SetActive(false);
-        }
+    //public void reconocerImagen()
+    //{
+    //    for (int i = 0; i < ImageTargetTemplate.transform.childCount; i++)
+    //    {
+    //        ImageTargetTemplate.transform.GetChild(i).gameObject.SetActive(false);
+    //    }
 
-        switch (mTargetMetadata)
-        {
-            case "ciervo":
-                ImageTargetTemplate.transform.GetChild(0).gameObject.SetActive(true);
-                break;
-            case "perro":
-                ImageTargetTemplate.transform.GetChild(1).gameObject.SetActive(true);
-                break;
-            case "caballo":
-                ImageTargetTemplate.transform.GetChild(2).gameObject.SetActive(true);
-                break;
-            case "gato":
-                ImageTargetTemplate.transform.GetChild(3).gameObject.SetActive(true);
-                break;
-            case "pinguino":
-                ImageTargetTemplate.transform.GetChild(4).gameObject.SetActive(true);
-                break;
-            case "tigre":
-                ImageTargetTemplate.transform.GetChild(5).gameObject.SetActive(true);
-                break;
-            case "gallina":
-                ImageTargetTemplate.transform.GetChild(6).gameObject.SetActive(true);
-                break;
-        }
-    }
+    //    switch (mTargetMetadata)
+    //    {
+    //        case "ciervo":
+    //            ImageTargetTemplate.transform.GetChild(0).gameObject.SetActive(true);
+    //            break;
+    //        case "perro":
+    //            ImageTargetTemplate.transform.GetChild(1).gameObject.SetActive(true);
+    //            break;
+    //        case "caballo":
+    //            ImageTargetTemplate.transform.GetChild(2).gameObject.SetActive(true);
+    //            break;
+    //        case "gato":
+    //            ImageTargetTemplate.transform.GetChild(3).gameObject.SetActive(true);
+    //            break;
+    //        case "pinguino":
+    //            ImageTargetTemplate.transform.GetChild(4).gameObject.SetActive(true);
+    //            break;
+    //        case "tigre":
+    //            ImageTargetTemplate.transform.GetChild(5).gameObject.SetActive(true);
+    //            break;
+    //        case "gallina":
+    //            ImageTargetTemplate.transform.GetChild(6).gameObject.SetActive(true);
+    //            break;
+    //    }
+    //}
 
     IEnumerator GetAssetBundle(string url)
     {
@@ -168,8 +182,16 @@ public class Script : MonoBehaviour
             string[] allAssetNames = bundle.GetAllAssetNames();
             string gameObjectName = Path.GetFileNameWithoutExtension(allAssetNames[0]).ToString();
             GameObject objectFound = bundle.LoadAsset(gameObjectName) as GameObject;
-            Instantiate(objectFound, transform.position, transform.rotation);
+            prefabAnimal = Instantiate(objectFound, ImageTargetTemplate.transform.position , ImageTargetTemplate.transform.rotation);
+            prefabAnimal.transform.SetParent(ImageTargetTemplate.transform);
+        }
+    }
 
+    public void borrarAnimal()
+    {
+        if(prefabAnimal != null)
+        {
+            Destroy(prefabAnimal);
         }
     }
 }

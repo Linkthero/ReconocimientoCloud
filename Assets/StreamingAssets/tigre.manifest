@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.2.6f1
+CRC: 3964096722
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3c5ab79803ce8653bb010e9af65b031a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9615b5f57446c8ef8cf9b942cbf382dd
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 42b1ff5dfc6579279f46079df4c4401d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: be2f4aa750c530144bd7219a00354c98, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b2c67ce836140b4479603ebcf944cddd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: ithappy.Animals_FREE.CreatureMover/LookWeight
+Assets:
+- Assets/ithappy/Animals_FREE/Prefabs/Tiger_001.prefab
+Dependencies: []

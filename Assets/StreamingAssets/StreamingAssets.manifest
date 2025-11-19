@@ -1,9 +1,27 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.2.6f1
-CRC: 2878919969
+CRC: 2687461800
 HashAppended: 0
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: pinguino
+      Dependencies: {}
+    Info_1:
+      Name: tigre
+      Dependencies: {}
+    Info_2:
+      Name: gato
+      Dependencies: {}
+    Info_3:
+      Name: caballo
+      Dependencies: {}
+    Info_4:
+      Name: ciervo
+      Dependencies: {}
+    Info_5:
+      Name: gallina
+      Dependencies: {}
+    Info_6:
+      Name: perro
       Dependencies: {}
