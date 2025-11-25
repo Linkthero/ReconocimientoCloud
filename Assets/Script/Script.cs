@@ -78,6 +78,7 @@ public class Script : MonoBehaviour
         if (scanning)
         {
             // Clear all known targets
+
         }
     }
 
@@ -98,6 +99,8 @@ public class Script : MonoBehaviour
         mTargetMetadata = datos.nombre;
         txtAnimalDetectado.text = datos.nombre;
         txtInfo.text = datos.info;
+        //añadimos la pista a la lista de pistas 
+        Datos.instance.pistas.Add(datos.info);
         //txt.text = cloudRecoSearchResult.TargetName;
 
         // Stop the scanning by disabling the behaviour
