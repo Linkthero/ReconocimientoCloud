@@ -12,6 +12,8 @@ public class Datos : MonoBehaviour
     [SerializeField] private GameObject panelPistas;
     [SerializeField] private GameObject panelTextoPistas;
 
+    public List<string> escaneados;
+
     private void Awake()
     {
         if(instance == null)
@@ -29,6 +31,7 @@ public class Datos : MonoBehaviour
     void Start()
     {
         pistas = new List<string>();
+        escaneados = new List<string>();
     }
 
     // Update is called once per frame
@@ -43,6 +46,7 @@ public class Datos : MonoBehaviour
         foreach (var p in pistas)
         {
             panelTextoPistas.transform.GetChild(i).GetComponent<TextMeshProUGUI>().text = p;
+            i++;
         }
         panelPistas.SetActive(true);
     }
