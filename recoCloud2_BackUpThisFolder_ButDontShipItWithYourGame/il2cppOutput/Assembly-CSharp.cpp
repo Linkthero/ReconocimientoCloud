@@ -173,7 +173,8 @@ struct MovementHandler_tB5C108671B90DC13A2137FEE50BCEBF420FD7D79;
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 struct U3CGetAssetBundleU3Ed__3_tCAC8B129531BA6EFA4DAFF300039CABAD5B9DDCC;
 struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
-struct U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954;
+struct U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417;
+struct U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C;
 struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98_il2cpp_TypeInfo_var;
@@ -200,12 +201,14 @@ IL2CPP_EXTERN_C RuntimeClass* Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_
 IL2CPP_EXTERN_C RuntimeClass* QueryError_tEB494FF968665E22017781DF3E77DEE063DBFBA3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CGetAssetBundleU3Ed__3_tCAC8B129531BA6EFA4DAFF300039CABAD5B9DDCC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____4F543A3E9463EFFB2E3046C487F3AB6BF0176CFAD1C7C945E05EDCECE5322617_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____C4C56B67F2AF20B671E8E051F18801B59D084EC16A85F73C90F3892F476DC3F4_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral05876044D30FBF7643E8B456DE27C6F6C8D2D401;
 IL2CPP_EXTERN_C String_t* _stringLiteral0C019E50CFD585AD0FE512F967393591B4259595;
 IL2CPP_EXTERN_C String_t* _stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0;
 IL2CPP_EXTERN_C String_t* _stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A;
@@ -213,6 +216,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral272E44C1231F156DCFB7B4D501CE68AEA3063359
 IL2CPP_EXTERN_C String_t* _stringLiteral29DF71BC23A5A09934F906AF083E74919711B505;
 IL2CPP_EXTERN_C String_t* _stringLiteral4004BAE92D69F129B358C329EF093328AE8E9F0D;
 IL2CPP_EXTERN_C String_t* _stringLiteral45FAB8C2D6F34E46A937913FE9F311EEEC1C19B4;
+IL2CPP_EXTERN_C String_t* _stringLiteral480BF97545E988EE5C923EC35B7BED2CB052A568;
 IL2CPP_EXTERN_C String_t* _stringLiteral575C326A874A90B1CBC1523B7D028A2CBF797DAA;
 IL2CPP_EXTERN_C String_t* _stringLiteral6880A54EF075785F5C9C50584B4D634313B2DB74;
 IL2CPP_EXTERN_C String_t* _stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C;
@@ -222,6 +226,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral8463240B597E14A568ACA7C91222CE26EF0DB88C
 IL2CPP_EXTERN_C String_t* _stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7;
 IL2CPP_EXTERN_C String_t* _stringLiteral916F6B1D0AAD57876A2BCB38638F93F526C3901E;
 IL2CPP_EXTERN_C String_t* _stringLiteral91B972CD5983E4A8B8D416515083613144DA3955;
+IL2CPP_EXTERN_C String_t* _stringLiteral93BA68B3EADE86C4B767DABCEE1C33CB91EB7B5D;
 IL2CPP_EXTERN_C String_t* _stringLiteralA7317F9E05CD9AB2136DF336F330144C93DF93AD;
 IL2CPP_EXTERN_C String_t* _stringLiteralA9273D8DD1DEB3C03C201E0611C180AC901CE8AF;
 IL2CPP_EXTERN_C String_t* _stringLiteralAD72253DE0936F278AB2486348EF09941F2FDEEE;
@@ -256,7 +261,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* SimpleCloudRecoEventHandler_OnInitialized_m
 IL2CPP_EXTERN_C const RuntimeMethod* SimpleCloudRecoEventHandler_OnNewSearchResult_m2B37B9240B7A89D97479E683DD73EF40F273F39F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SimpleCloudRecoEventHandler_OnStateChanged_m8B8E8CEBE01DD0B7583DD5E38691E322DA1CC09F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SimpleCloudRecoEventHandler_OnUpdateError_mCD27FA788213B1CD32F19F24B17F1275944DB2F3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CGetAssetBundleU3Ed__16_System_Collections_IEnumerator_Reset_m729A4EC106798DFC05A54641AD64816AC89DBADC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGetAssetBundleCartaU3Ed__18_System_Collections_IEnumerator_Reset_mC36F2D06F6D0871D0EB1869CC4C048EAA50F9FAF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGetAssetBundleModeloU3Ed__19_System_Collections_IEnumerator_Reset_m5738D39BBF068C57F4B66B4A1E44B436CEF6B564_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGetAssetBundleU3Ed__3_System_Collections_IEnumerator_Reset_m47718FC335015DE16ADE1778B997F592410E4988_RuntimeMethod_var;
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com;
 struct Delegate_t_marshaled_com;
@@ -306,6 +312,7 @@ struct MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683  : public RuntimeObje
 	String_t* ___URL;
 	String_t* ___puntuacion;
 	String_t* ___info;
+	String_t* ___imgcarta;
 };
 struct PlayerInfo_tC66DD3EB75091432EAF7085658AC2B0065A41223  : public RuntimeObject
 {
@@ -363,7 +370,15 @@ struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
 	String_t* ___linkText;
 	String_t* ___url;
 };
-struct U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954  : public RuntimeObject
+struct U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	String_t* ___url;
+	Script_t16820696475B1CE5329D1A278120D55D1EAB0117* ___U3CU3E4__this;
+	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___U3CwwwU3E5__2;
+};
+struct U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -1602,6 +1617,8 @@ struct Script_t16820696475B1CE5329D1A278120D55D1EAB0117  : public MonoBehaviour_
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___txtAnimalDetectado;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___txtInfo;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___imageTarget;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Canva;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefabCarta;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefabAnimal;
 	CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* ___mCloudRecoBehaviour;
 	bool ___mIsScanning;
@@ -2349,7 +2366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CloudRecoBehaviour_UnregisterOnNewSearch
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* MetaDatos_CreateFromJSON_mC5700A7747283FBEB9755BBD25F1A65358533264 (String_t* ___0_jsonString, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Script_GetAssetBundle_m102BF377BE243F0C15C639DB510FFFD2B2B2EF85 (Script_t16820696475B1CE5329D1A278120D55D1EAB0117* __this, String_t* ___0_url, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Script_GetAssetBundleCarta_m51779605B771639A04A76F7C240042D61D478E2E (Script_t16820696475B1CE5329D1A278120D55D1EAB0117* __this, String_t* ___0_url, const RuntimeMethod* method) ;
 inline bool List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
 {
 	return ((  bool (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Contains_m4C9139C2A6B23E9343D3F87807B32C6E2CFE660D_gshared)(__this, ___0_item, method);
@@ -2363,7 +2380,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* CloudRecoBehaviour_EnableObservers_m0F8C911F85DC9175EC115AD024F3B2C9A1C45220 (CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* __this, CloudRecoSearchResult_tE583336F5452284FC4BA3A1B192007DE7DCCB42E* ___0_result, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_gameObject, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_position, String_t* ___1_text, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_borrarAnimal_m0B8E0CFF9A483A567EE0D1E02217A0947C0D1452 (Script_t16820696475B1CE5329D1A278120D55D1EAB0117* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleU3Ed__16__ctor_mAF5E6508D88801E30C9A6ADE9DA941B20F648830 (U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleCartaU3Ed__18__ctor_m87B973F63C1D271E31BAEE9A83E1BF4B6A45F2FA (U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleModeloU3Ed__19__ctor_mF9A52232B23EA9CF91002B09C639C715D4C744E4 (U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_p, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68 (int32_t ___0_minInclusive, int32_t ___1_maxExclusive, const RuntimeMethod* method) ;
@@ -3118,7 +3136,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB131
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:19>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:21>
 		String_t* L_0 = ___0_jsonString;
 		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_1;
 		L_1 = JsonUtility_FromJson_TisMetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683_m97E56C758BDFC8E16493F8804B94F7E2F408884B(L_0, JsonUtility_FromJson_TisMetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683_m97E56C758BDFC8E16493F8804B94F7E2F408884B_RuntimeMethod_var);
@@ -3161,42 +3179,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_Awake_m27D5EB818DFB744A7CD38149D9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:40>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:44>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_0;
 		L_0 = Component_GetComponent_TisCloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777_m62BF584234A10D7EFCD69019F15CA5A52BCF1874(__this, Component_GetComponent_TisCloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777_m62BF584234A10D7EFCD69019F15CA5A52BCF1874_RuntimeMethod_var);
 		__this->___mCloudRecoBehaviour = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mCloudRecoBehaviour), (void*)L_0);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:41>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:45>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_1 = __this->___mCloudRecoBehaviour;
 		Action_1_tBFF2F9CD8574F5BE0626C1C235918E0630FBBB91* L_2 = (Action_1_tBFF2F9CD8574F5BE0626C1C235918E0630FBBB91*)il2cpp_codegen_object_new(Action_1_tBFF2F9CD8574F5BE0626C1C235918E0630FBBB91_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC51847B8CD3CD83F72BF054B77DBB468BCC98986(L_2, __this, (intptr_t)((void*)Script_OnInitialized_m200E8E96D58A29297FB8BE317F5AB1AE3A2AB01C_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		CloudRecoBehaviour_RegisterOnInitializedEventHandler_m1FF1F0DEC6DAD933B1F08F69E713B9B5DCE56BEE(L_1, L_2, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:42>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:46>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_3 = __this->___mCloudRecoBehaviour;
 		Action_1_t524C672EBFE8D3DDCFD2EB22207E9E1E352DF9EC* L_4 = (Action_1_t524C672EBFE8D3DDCFD2EB22207E9E1E352DF9EC*)il2cpp_codegen_object_new(Action_1_t524C672EBFE8D3DDCFD2EB22207E9E1E352DF9EC_il2cpp_TypeInfo_var);
 		Action_1__ctor_m96D5EA22B490AE9DBDB177BF4E7FDF9B9FD796A7(L_4, __this, (intptr_t)((void*)Script_OnInitError_mBA83F476CE5247C873DE23ED538851EA4483B411_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		CloudRecoBehaviour_RegisterOnInitErrorEventHandler_m1B1BF3FCCE932A31438EA281FF09B50726E5B258(L_3, L_4, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:43>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:47>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_5 = __this->___mCloudRecoBehaviour;
 		Action_1_t2E330B9E262A16BFCD0C9A6382144829E242808E* L_6 = (Action_1_t2E330B9E262A16BFCD0C9A6382144829E242808E*)il2cpp_codegen_object_new(Action_1_t2E330B9E262A16BFCD0C9A6382144829E242808E_il2cpp_TypeInfo_var);
 		Action_1__ctor_m7705345C7E4D377892000B5ECBE238EA6EE4A252(L_6, __this, (intptr_t)((void*)Script_OnUpdateError_mAAB710F6EC33D1C64182D9F8C3176F1ADFF8AED7_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		CloudRecoBehaviour_RegisterOnUpdateErrorEventHandler_m0E0C2769BA0690578AC1E422EB4ABD2F07C7AB10(L_5, L_6, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:44>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:48>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_7 = __this->___mCloudRecoBehaviour;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_8 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_8, __this, (intptr_t)((void*)Script_OnStateChanged_m3A9E7D43B6BB24C99A6533725E9143757A2B70DE_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		CloudRecoBehaviour_RegisterOnStateChangedEventHandler_mD617C992484BFD9B43F54D836DA4AA34FD6A4AEC(L_7, L_8, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:45>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:49>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_9 = __this->___mCloudRecoBehaviour;
 		Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98* L_10 = (Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98*)il2cpp_codegen_object_new(Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98_il2cpp_TypeInfo_var);
 		Action_1__ctor_mD43A23947A9468C8062F471F7E737A271E9CECFF(L_10, __this, (intptr_t)((void*)Script_OnNewSearchResult_mD781E370D5D90F1A8C3C0AD5DDEC7A15FEF63BA9_RuntimeMethod_var), NULL);
 		NullCheck(L_9);
 		CloudRecoBehaviour_RegisterOnNewSearchResultEventHandler_m2333CCA636852D484910215E593096B4171C3AF9(L_9, L_10, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:46>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:50>
 		return;
 	}
 }
@@ -3219,42 +3237,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_OnDestroy_mFEE7D3AD779F4B913518CD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:50>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:54>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_0 = __this->___mCloudRecoBehaviour;
 		Action_1_tBFF2F9CD8574F5BE0626C1C235918E0630FBBB91* L_1 = (Action_1_tBFF2F9CD8574F5BE0626C1C235918E0630FBBB91*)il2cpp_codegen_object_new(Action_1_tBFF2F9CD8574F5BE0626C1C235918E0630FBBB91_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC51847B8CD3CD83F72BF054B77DBB468BCC98986(L_1, __this, (intptr_t)((void*)Script_OnInitialized_m200E8E96D58A29297FB8BE317F5AB1AE3A2AB01C_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = CloudRecoBehaviour_UnregisterOnInitializedEventHandler_mF1E6ED88F60E62EDF9BD531DF3D4CD18A02E2C2C(L_0, L_1, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:51>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:55>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_3 = __this->___mCloudRecoBehaviour;
 		Action_1_t524C672EBFE8D3DDCFD2EB22207E9E1E352DF9EC* L_4 = (Action_1_t524C672EBFE8D3DDCFD2EB22207E9E1E352DF9EC*)il2cpp_codegen_object_new(Action_1_t524C672EBFE8D3DDCFD2EB22207E9E1E352DF9EC_il2cpp_TypeInfo_var);
 		Action_1__ctor_m96D5EA22B490AE9DBDB177BF4E7FDF9B9FD796A7(L_4, __this, (intptr_t)((void*)Script_OnInitError_mBA83F476CE5247C873DE23ED538851EA4483B411_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		bool L_5;
 		L_5 = CloudRecoBehaviour_UnregisterOnInitErrorEventHandler_m23FD7BF6C4C1D2F0B410C9FF5723967404945177(L_3, L_4, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:52>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:56>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_6 = __this->___mCloudRecoBehaviour;
 		Action_1_t2E330B9E262A16BFCD0C9A6382144829E242808E* L_7 = (Action_1_t2E330B9E262A16BFCD0C9A6382144829E242808E*)il2cpp_codegen_object_new(Action_1_t2E330B9E262A16BFCD0C9A6382144829E242808E_il2cpp_TypeInfo_var);
 		Action_1__ctor_m7705345C7E4D377892000B5ECBE238EA6EE4A252(L_7, __this, (intptr_t)((void*)Script_OnUpdateError_mAAB710F6EC33D1C64182D9F8C3176F1ADFF8AED7_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
 		bool L_8;
 		L_8 = CloudRecoBehaviour_UnregisterOnUpdateErrorEventHandler_m9A13FFD0728046124A90D243F0E0AE8A3C3AB6BB(L_6, L_7, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:53>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:57>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_9 = __this->___mCloudRecoBehaviour;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_10 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_10, __this, (intptr_t)((void*)Script_OnStateChanged_m3A9E7D43B6BB24C99A6533725E9143757A2B70DE_RuntimeMethod_var), NULL);
 		NullCheck(L_9);
 		bool L_11;
 		L_11 = CloudRecoBehaviour_UnregisterOnStateChangedEventHandler_m6B9C7CFD8D41B28579DDA5E0B9DFFB6EC1CE3171(L_9, L_10, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:54>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:58>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_12 = __this->___mCloudRecoBehaviour;
 		Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98* L_13 = (Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98*)il2cpp_codegen_object_new(Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98_il2cpp_TypeInfo_var);
 		Action_1__ctor_mD43A23947A9468C8062F471F7E737A271E9CECFF(L_13, __this, (intptr_t)((void*)Script_OnNewSearchResult_mD781E370D5D90F1A8C3C0AD5DDEC7A15FEF63BA9_RuntimeMethod_var), NULL);
 		NullCheck(L_12);
 		bool L_14;
 		L_14 = CloudRecoBehaviour_UnregisterOnNewSearchResultEventHandler_m19C143094FA894C8CF8029C09AA029057EED999C(L_12, L_13, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:55>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:59>
 		return;
 	}
 }
@@ -3269,10 +3287,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_OnInitialized_m200E8E96D58A29297F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:60>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:64>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral0C019E50CFD585AD0FE512F967393591B4259595, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:61>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:65>
 		return;
 	}
 }
@@ -3288,7 +3306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_OnInitError_mBA83F476CE5247C873DE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:65>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:69>
 		Il2CppFakeBox<int32_t> L_0(InitError_tC04517E3DB17E87FEB08460A1ADB5DEE0F6FDF12_il2cpp_TypeInfo_var, (&___0_initError));
 		String_t* L_1;
 		L_1 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_0), NULL);
@@ -3296,7 +3314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_OnInitError_mBA83F476CE5247C873DE
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral45FAB8C2D6F34E46A937913FE9F311EEEC1C19B4, L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:66>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:70>
 		return;
 	}
 }
@@ -3312,7 +3330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_OnUpdateError_mAAB710F6EC33D1C641
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:70>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:74>
 		Il2CppFakeBox<int32_t> L_0(QueryError_tEB494FF968665E22017781DF3E77DEE063DBFBA3_il2cpp_TypeInfo_var, (&___0_updateError));
 		String_t* L_1;
 		L_1 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_0), NULL);
@@ -3320,7 +3338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_OnUpdateError_mAAB710F6EC33D1C641
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral8463240B597E14A568ACA7C91222CE26EF0DB88C, L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:72>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:76>
 		return;
 	}
 }
@@ -3334,10 +3352,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_OnStateChanged_m3A9E7D43B6BB24C99
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:76>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:80>
 		bool L_0 = ___0_scanning;
 		__this->___mIsScanning = L_0;
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:78>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:82>
 		bool L_1 = ___0_scanning;
 		if (!L_1)
 		{
@@ -3345,11 +3363,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_OnStateChanged_m3A9E7D43B6BB24C99
 		}
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:81>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:85>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___txtAnimalDetectado;
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:82>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:86>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___txtInfo;
 		NullCheck(L_3);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -3357,7 +3375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_OnStateChanged_m3A9E7D43B6BB24C99
 
 IL_002a:
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:84>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:88>
 		return;
 	}
 }
@@ -3375,109 +3393,102 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_OnNewSearchResult_mD781E370D5D90F
 	}
 	MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* V_0 = NULL;
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:90>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:94>
 		CloudRecoSearchResult_tE583336F5452284FC4BA3A1B192007DE7DCCB42E* L_0 = ___0_cloudRecoSearchResult;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___MetaData;
 		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_2;
 		L_2 = MetaDatos_CreateFromJSON_mC5700A7747283FBEB9755BBD25F1A65358533264(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:98>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:104>
 		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_3 = V_0;
 		NullCheck(L_3);
-		String_t* L_4 = L_3->___URL;
+		String_t* L_4 = L_3->___imgcarta;
 		RuntimeObject* L_5;
-		L_5 = Script_GetAssetBundle_m102BF377BE243F0C15C639DB510FFFD2B2B2EF85(__this, L_4, NULL);
+		L_5 = Script_GetAssetBundleCarta_m51779605B771639A04A76F7C240042D61D478E2E(__this, L_4, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
 		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:100>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:111>
 		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_7 = V_0;
 		NullCheck(L_7);
 		String_t* L_8 = L_7->___nombre;
 		__this->___mTargetMetadata = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTargetMetadata), (void*)L_8);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:101>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:112>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___txtAnimalDetectado;
 		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_10 = V_0;
 		NullCheck(L_10);
 		String_t* L_11 = L_10->___nombre;
 		NullCheck(L_9);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_9, L_11);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:102>
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = __this->___txtInfo;
-		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_13 = V_0;
-		NullCheck(L_13);
-		String_t* L_14 = L_13->___info;
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:118>
+		Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92* L_12 = ((Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_StaticFields*)il2cpp_codegen_static_fields_for(Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_12);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_12, L_14);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:105>
-		Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92* L_15 = ((Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_StaticFields*)il2cpp_codegen_static_fields_for(Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_15);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_16 = L_15->___escaneados;
-		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_17 = V_0;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_13 = L_12->___escaneados;
+		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_14 = V_0;
+		NullCheck(L_14);
+		String_t* L_15 = L_14->___nombre;
+		NullCheck(L_13);
+		bool L_16;
+		L_16 = List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1(L_13, L_15, List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1_RuntimeMethod_var);
+		if (L_16)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:120>
+		Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92* L_17 = ((Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_StaticFields*)il2cpp_codegen_static_fields_for(Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_17);
-		String_t* L_18 = L_17->___nombre;
-		NullCheck(L_16);
-		bool L_19;
-		L_19 = List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1(L_16, L_18, List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1_RuntimeMethod_var);
-		if (L_19)
-		{
-			goto IL_008e;
-		}
-	}
-	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:107>
-		Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92* L_20 = ((Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_StaticFields*)il2cpp_codegen_static_fields_for(Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_20);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_21 = L_20->___escaneados;
-		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_22 = V_0;
-		NullCheck(L_22);
-		String_t* L_23 = L_22->___nombre;
-		NullCheck(L_21);
-		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_21, L_23, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:109>
-		Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92* L_24 = ((Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_StaticFields*)il2cpp_codegen_static_fields_for(Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_24);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_25 = L_24->___pistas;
-		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_26 = V_0;
-		NullCheck(L_26);
-		String_t* L_27 = L_26->___info;
-		NullCheck(L_25);
-		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_25, L_27, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-	}
-
-IL_008e:
-	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:114>
-		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_28 = __this->___mCloudRecoBehaviour;
-		NullCheck(L_28);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_28, (bool)0, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:119>
-		ImageTargetBehaviour_t014481FC6A8B819C2BCE7922BA6BD53E1B23F120* L_29 = __this->___ImageTargetTemplate;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_30;
-		L_30 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_29, NULL);
-		if (!L_30)
-		{
-			goto IL_00bf;
-		}
-	}
-	{
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_18 = L_17->___escaneados;
+		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_19 = V_0;
+		NullCheck(L_19);
+		String_t* L_20 = L_19->___nombre;
+		NullCheck(L_18);
+		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_18, L_20, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:122>
-		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_31 = __this->___mCloudRecoBehaviour;
-		CloudRecoSearchResult_tE583336F5452284FC4BA3A1B192007DE7DCCB42E* L_32 = ___0_cloudRecoSearchResult;
-		ImageTargetBehaviour_t014481FC6A8B819C2BCE7922BA6BD53E1B23F120* L_33 = __this->___ImageTargetTemplate;
-		NullCheck(L_33);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34;
-		L_34 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_33, NULL);
-		NullCheck(L_31);
-		ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* L_35;
-		L_35 = CloudRecoBehaviour_EnableObservers_m0F8C911F85DC9175EC115AD024F3B2C9A1C45220(L_31, L_32, L_34, NULL);
+		Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92* L_21 = ((Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_StaticFields*)il2cpp_codegen_static_fields_for(Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_21);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_22 = L_21->___pistas;
+		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_23 = V_0;
+		NullCheck(L_23);
+		String_t* L_24 = L_23->___info;
+		NullCheck(L_22);
+		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_22, L_24, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 	}
 
-IL_00bf:
+IL_007d:
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:124>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:127>
+		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_25 = __this->___mCloudRecoBehaviour;
+		NullCheck(L_25);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_25, (bool)0, NULL);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:132>
+		ImageTargetBehaviour_t014481FC6A8B819C2BCE7922BA6BD53E1B23F120* L_26 = __this->___ImageTargetTemplate;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_27;
+		L_27 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_26, NULL);
+		if (!L_27)
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:135>
+		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_28 = __this->___mCloudRecoBehaviour;
+		CloudRecoSearchResult_tE583336F5452284FC4BA3A1B192007DE7DCCB42E* L_29 = ___0_cloudRecoSearchResult;
+		ImageTargetBehaviour_t014481FC6A8B819C2BCE7922BA6BD53E1B23F120* L_30 = __this->___ImageTargetTemplate;
+		NullCheck(L_30);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31;
+		L_31 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_30, NULL);
+		NullCheck(L_28);
+		ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* L_32;
+		L_32 = CloudRecoBehaviour_EnableObservers_m0F8C911F85DC9175EC115AD024F3B2C9A1C45220(L_28, L_29, L_31, NULL);
+	}
+
+IL_00ae:
+	{
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:137>
 		return;
 	}
 }
@@ -3503,7 +3514,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_OnGUI_mF49DBFAFB2FDF1AE1167A72B63
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D G_B3_1;
 	memset((&G_B3_1), 0, sizeof(G_B3_1));
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:130>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:143>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_0), (100.0f), (100.0f), (200.0f), (50.0f), NULL);
@@ -3531,7 +3542,7 @@ IL_002d:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
 		GUI_Box_mB47BC44807774B77DB8B2BB548D339036544ACC4(G_B3_1, G_B3_0, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:132>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:145>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_2), (100.0f), (200.0f), (200.0f), (50.0f), NULL);
@@ -3539,7 +3550,7 @@ IL_002d:
 		String_t* L_4;
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral8120B93D7DA20B47DEE41AADE3C2939C7533F6BF, L_3, NULL);
 		GUI_Box_mB47BC44807774B77DB8B2BB548D339036544ACC4(L_2, L_4, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:135>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:148>
 		bool L_5 = __this->___mIsScanning;
 		if (L_5)
 		{
@@ -3547,7 +3558,7 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:137>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:150>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_6), (100.0f), (300.0f), (200.0f), (50.0f), NULL);
@@ -3560,40 +3571,40 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:140>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:153>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_8 = __this->___mCloudRecoBehaviour;
 		NullCheck(L_8);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_8, (bool)1, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:141>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:154>
 		__this->___mTargetMetadata = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTargetMetadata), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:142>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:155>
 		Script_borrarAnimal_m0B8E0CFF9A483A567EE0D1E02217A0947C0D1452(__this, NULL);
 	}
 
 IL_00aa:
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:145>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:158>
 		return;
 	}
 }
 // Method Definition Index: 97392
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Script_GetAssetBundle_m102BF377BE243F0C15C639DB510FFFD2B2B2EF85 (Script_t16820696475B1CE5329D1A278120D55D1EAB0117* __this, String_t* ___0_url, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Script_GetAssetBundleCarta_m51779605B771639A04A76F7C240042D61D478E2E (Script_t16820696475B1CE5329D1A278120D55D1EAB0117* __this, String_t* ___0_url, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954* L_0 = (U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954*)il2cpp_codegen_object_new(U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954_il2cpp_TypeInfo_var);
-		U3CGetAssetBundleU3Ed__16__ctor_mAF5E6508D88801E30C9A6ADE9DA941B20F648830(L_0, 0, NULL);
-		U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954* L_1 = L_0;
+		U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417* L_0 = (U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417*)il2cpp_codegen_object_new(U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417_il2cpp_TypeInfo_var);
+		U3CGetAssetBundleCartaU3Ed__18__ctor_m87B973F63C1D271E31BAEE9A83E1BF4B6A45F2FA(L_0, 0, NULL);
+		U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
-		U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954* L_2 = L_1;
+		U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417* L_2 = L_1;
 		String_t* L_3 = ___0_url;
 		NullCheck(L_2);
 		L_2->___url = L_3;
@@ -3602,6 +3613,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Script_GetAssetBundle_m102BF37
 	}
 }
 // Method Definition Index: 97393
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Script_GetAssetBundleModelo_m4EFC9092B772762F5593878D1DD53E754569D03A (Script_t16820696475B1CE5329D1A278120D55D1EAB0117* __this, String_t* ___0_url, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C* L_0 = (U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C*)il2cpp_codegen_object_new(U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C_il2cpp_TypeInfo_var);
+		U3CGetAssetBundleModeloU3Ed__19__ctor_mF9A52232B23EA9CF91002B09C639C715D4C744E4(L_0, 0, NULL);
+		U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C* L_2 = L_1;
+		String_t* L_3 = ___0_url;
+		NullCheck(L_2);
+		L_2->___url = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___url), (void*)L_3);
+		return L_2;
+	}
+}
+// Method Definition Index: 97394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_borrarAnimal_m0B8E0CFF9A483A567EE0D1E02217A0947C0D1452 (Script_t16820696475B1CE5329D1A278120D55D1EAB0117* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3611,7 +3646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_borrarAnimal_m0B8E0CFF9A483A567EE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:202>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:240>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___prefabAnimal;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3622,7 +3657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_borrarAnimal_m0B8E0CFF9A483A567EE
 		}
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:204>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:242>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___prefabAnimal;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
@@ -3630,11 +3665,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_borrarAnimal_m0B8E0CFF9A483A567EE
 
 IL_0019:
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:206>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:244>
 		return;
 	}
 }
-// Method Definition Index: 97394
+// Method Definition Index: 97395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script__ctor_mC411C5D59BEB7BF2105E339FD817C5B1F8EB8451 (Script_t16820696475B1CE5329D1A278120D55D1EAB0117* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3644,7 +3679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script__ctor_mC411C5D59BEB7BF2105E339FD8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:32>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:36>
 		__this->___mTargetMetadata = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTargetMetadata), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
@@ -3659,8 +3694,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script__ctor_mC411C5D59BEB7BF2105E339FD8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97395
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleU3Ed__16__ctor_mAF5E6508D88801E30C9A6ADE9DA941B20F648830 (U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 97396
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleCartaU3Ed__18__ctor_m87B973F63C1D271E31BAEE9A83E1BF4B6A45F2FA (U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -3669,15 +3704,247 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleU3Ed__16__ctor_mAF5E650
 		return;
 	}
 }
-// Method Definition Index: 97396
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleU3Ed__16_System_IDisposable_Dispose_m909B57019BBB5C5D9BD1D5529376EAE006616194 (U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954* __this, const RuntimeMethod* method) 
+// Method Definition Index: 97397
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleCartaU3Ed__18_System_IDisposable_Dispose_mBFAC96151FF691561453F71264841474720AA61C (U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 97397
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetAssetBundleU3Ed__16_MoveNext_m2DF21263C14D80EBA676ABA239A7BCE46B7F05EA (U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954* __this, const RuntimeMethod* method) 
+// Method Definition Index: 97398
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetAssetBundleCartaU3Ed__18_MoveNext_mAFB8E609D8C550BD0892F5C6BF91B5E1E28ACEF9 (U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral05876044D30FBF7643E8B456DE27C6F6C8D2D401);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral480BF97545E988EE5C923EC35B7BED2CB052A568);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral93BA68B3EADE86C4B767DABCEE1C33CB91EB7B5D);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Script_t16820696475B1CE5329D1A278120D55D1EAB0117* V_1 = NULL;
+	String_t* V_2 = NULL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:195>
+		String_t* L_4 = __this->___url;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5;
+		L_5 = UnityWebRequestAssetBundle_GetAssetBundle_mA08565578A5E7A07140D4C6327FD9B51E14D99F9(L_4, NULL);
+		__this->___U3CwwwU3E5__2 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CwwwU3E5__2), (void*)L_5);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:196>
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_6 = __this->___U3CwwwU3E5__2;
+		NullCheck(L_6);
+		UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* L_7;
+		L_7 = UnityWebRequest_SendWebRequest_mA3CD13983BAA5074A0640EDD661B1E46E6DB6C13(L_6, NULL);
+		__this->___U3CU3E2__current = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_7);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0049:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:198>
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_8 = __this->___U3CwwwU3E5__2;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449(L_8, NULL);
+		if ((((int32_t)L_9) == ((int32_t)1)))
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:200>
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_10 = __this->___U3CwwwU3E5__2;
+		NullCheck(L_10);
+		String_t* L_11;
+		L_11 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_10, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_11, NULL);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:201>
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_12 = V_1;
+		NullCheck(L_12);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_13 = L_12->___txtInfo;
+		NullCheck(L_13);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, _stringLiteral05876044D30FBF7643E8B456DE27C6F6C8D2D401);
+		goto IL_0114;
+	}
+
+IL_0083:
+	{
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:205>
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_14 = __this->___U3CwwwU3E5__2;
+		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_15;
+		L_15 = DownloadHandlerAssetBundle_GetContent_m9E279B7987A8ADAB0D0B441BAB8C5A61C7DEB7C4(L_14, NULL);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:206>
+		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_16 = L_15;
+		NullCheck(L_16);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17;
+		L_17 = AssetBundle_GetAllAssetNames_m44504DB9E055412F0DF2071A769A243219708CC3(L_16, NULL);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:208>
+		NullCheck(L_17);
+		int32_t L_18 = 0;
+		String_t* L_19 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		String_t* L_20;
+		L_20 = Path_GetFileNameWithoutExtension_m2D14CCBAB9C60DC8D32C2443CCE3D34644822FAF(L_19, NULL);
+		NullCheck(L_20);
+		String_t* L_21;
+		L_21 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_20);
+		V_2 = L_21;
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:210>
+		String_t* L_22 = V_2;
+		NullCheck(L_16);
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_23;
+		L_23 = AssetBundle_LoadAsset_m25926A405F3AB79A4DF2447F23A09957EC7F063E(L_16, L_22, NULL);
+		V_3 = ((GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)IsInstSealed((RuntimeObject*)L_23, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var));
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:211>
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_24 = V_1;
+		NullCheck(L_24);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_25 = L_24->___txtInfo;
+		NullCheck(L_25);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, _stringLiteral480BF97545E988EE5C923EC35B7BED2CB052A568);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:212>
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_26 = V_1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = V_3;
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_28 = V_1;
+		NullCheck(L_28);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = L_28->___Canva;
+		NullCheck(L_29);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
+		L_30 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_29, NULL);
+		NullCheck(L_30);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_30, NULL);
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_32 = V_1;
+		NullCheck(L_32);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = L_32->___Canva;
+		NullCheck(L_33);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
+		L_34 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_33, NULL);
+		NullCheck(L_34);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_35;
+		L_35 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_34, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36;
+		L_36 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_27, L_31, L_35, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		NullCheck(L_26);
+		L_26->___prefabCarta = L_36;
+		Il2CppCodeGenWriteBarrier((void**)(&L_26->___prefabCarta), (void*)L_36);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:213>
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_37 = V_1;
+		NullCheck(L_37);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = L_37->___prefabCarta;
+		NullCheck(L_38);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39;
+		L_39 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_38, NULL);
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_40 = V_1;
+		NullCheck(L_40);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = L_40->___Canva;
+		NullCheck(L_41);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
+		L_42 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_41, NULL);
+		NullCheck(L_39);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_39, L_42, NULL);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:214>
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_43 = V_1;
+		NullCheck(L_43);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_44 = L_43->___txtInfo;
+		NullCheck(L_44);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_44, _stringLiteral93BA68B3EADE86C4B767DABCEE1C33CB91EB7B5D);
+	}
+
+IL_0114:
+	{
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:216>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 97399
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetAssetBundleCartaU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3D48F290CA0532357A50E21A4315B68C8D99395A (U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 97400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleCartaU3Ed__18_System_Collections_IEnumerator_Reset_mC36F2D06F6D0871D0EB1869CC4C048EAA50F9FAF (U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGetAssetBundleCartaU3Ed__18_System_Collections_IEnumerator_Reset_mC36F2D06F6D0871D0EB1869CC4C048EAA50F9FAF_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 97401
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetAssetBundleCartaU3Ed__18_System_Collections_IEnumerator_get_Current_m8FCB641279825000078E36FF1379818728FCC617 (U3CGetAssetBundleCartaU3Ed__18_t203F89D040E0A75F829DB78A455E0B25989A7417* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 97402
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleModeloU3Ed__19__ctor_mF9A52232B23EA9CF91002B09C639C715D4C744E4 (U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 97403
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleModeloU3Ed__19_System_IDisposable_Dispose_m45450E51AE58BD9CC651E115125EF43C3C56AD5A (U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 97404
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetAssetBundleModeloU3Ed__19_MoveNext_m4DF5286EC857D3EE935A6A199D640FAAA9EBF106 (U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3718,13 +3985,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetAssetBundleU3Ed__16_MoveNext_m2DF2
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:182>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:219>
 		String_t* L_4 = __this->___url;
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5;
 		L_5 = UnityWebRequestAssetBundle_GetAssetBundle_mA08565578A5E7A07140D4C6327FD9B51E14D99F9(L_4, NULL);
 		__this->___U3CwwwU3E5__2 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CwwwU3E5__2), (void*)L_5);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:183>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:220>
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_6 = __this->___U3CwwwU3E5__2;
 		NullCheck(L_6);
 		UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* L_7;
@@ -3738,7 +4005,7 @@ IL_0017:
 IL_0049:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:185>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:222>
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_8 = __this->___U3CwwwU3E5__2;
 		NullCheck(L_8);
 		int32_t L_9;
@@ -3749,7 +4016,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:187>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:224>
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_10 = __this->___U3CwwwU3E5__2;
 		NullCheck(L_10);
 		String_t* L_11;
@@ -3761,16 +4028,16 @@ IL_0049:
 
 IL_0070:
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:191>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:228>
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_12 = __this->___U3CwwwU3E5__2;
 		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_13;
 		L_13 = DownloadHandlerAssetBundle_GetContent_m9E279B7987A8ADAB0D0B441BAB8C5A61C7DEB7C4(L_12, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:192>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:229>
 		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_14 = L_13;
 		NullCheck(L_14);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15;
 		L_15 = AssetBundle_GetAllAssetNames_m44504DB9E055412F0DF2071A769A243219708CC3(L_14, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:193>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:230>
 		NullCheck(L_15);
 		int32_t L_16 = 0;
 		String_t* L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
@@ -3781,13 +4048,13 @@ IL_0070:
 		String_t* L_19;
 		L_19 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_18);
 		V_2 = L_19;
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:194>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:231>
 		String_t* L_20 = V_2;
 		NullCheck(L_14);
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_21;
 		L_21 = AssetBundle_LoadAsset_m25926A405F3AB79A4DF2447F23A09957EC7F063E(L_14, L_20, NULL);
 		V_3 = ((GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)IsInstSealed((RuntimeObject*)L_21, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:195>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:233>
 		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_22 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = V_3;
 		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_24 = V_1;
@@ -3814,7 +4081,7 @@ IL_0070:
 		NullCheck(L_22);
 		L_22->___prefabAnimal = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&L_22->___prefabAnimal), (void*)L_32);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:196>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:234>
 		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_33 = V_1;
 		NullCheck(L_33);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = L_33->___prefabAnimal;
@@ -3833,29 +4100,29 @@ IL_0070:
 
 IL_00e1:
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:198>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:236>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 97398
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetAssetBundleU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m79FA4E44595F5E8800A1FE0A883F33B7C480858E (U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954* __this, const RuntimeMethod* method) 
+// Method Definition Index: 97405
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetAssetBundleModeloU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE41684A31D5B9ECCDB09C464B118924F8D62BAD8 (U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 97399
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleU3Ed__16_System_Collections_IEnumerator_Reset_m729A4EC106798DFC05A54641AD64816AC89DBADC (U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954* __this, const RuntimeMethod* method) 
+// Method Definition Index: 97406
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleModeloU3Ed__19_System_Collections_IEnumerator_Reset_m5738D39BBF068C57F4B66B4A1E44B436CEF6B564 (U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGetAssetBundleU3Ed__16_System_Collections_IEnumerator_Reset_m729A4EC106798DFC05A54641AD64816AC89DBADC_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGetAssetBundleModeloU3Ed__19_System_Collections_IEnumerator_Reset_m5738D39BBF068C57F4B66B4A1E44B436CEF6B564_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 97400
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetAssetBundleU3Ed__16_System_Collections_IEnumerator_get_Current_m03330705D33431A9F23E08800D4A6FA679CF31FD (U3CGetAssetBundleU3Ed__16_tD52B5F4DBB80A9AF65853DE56682D47A74372954* __this, const RuntimeMethod* method) 
+// Method Definition Index: 97407
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetAssetBundleModeloU3Ed__19_System_Collections_IEnumerator_get_Current_m2621028BC9DA7DB373E58C6A2F02CA2E18DAF97F (U3CGetAssetBundleModeloU3Ed__19_tCF38038572C543258799826B5B690A2EA5B0A20C* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -3870,7 +4137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetAssetBundleU3Ed__16_Syst
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97401
+// Method Definition Index: 97408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_generaPlanetaBuscar_m0A88D8975D4C891F75F613410987AA301744FBAA (SimpleCloudRecoEventHandler_t8CB31C2AAE2DD9FD145B29A562ED88FFB6B9480D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3908,7 +4175,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_generaPlanet
 		return;
 	}
 }
-// Method Definition Index: 97402
+// Method Definition Index: 97409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_Start_m5111B28ED6C095F58550DE49713D135F7C7B0279 (SimpleCloudRecoEventHandler_t8CB31C2AAE2DD9FD145B29A562ED88FFB6B9480D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3918,7 +4185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_Start_m5111B
 		return;
 	}
 }
-// Method Definition Index: 97403
+// Method Definition Index: 97410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_Awake_mA2E99F61B39B12C1AA79E57432A7B20F0E60B2C8 (SimpleCloudRecoEventHandler_t8CB31C2AAE2DD9FD145B29A562ED88FFB6B9480D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3977,7 +4244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_Awake_mA2E99
 		return;
 	}
 }
-// Method Definition Index: 97404
+// Method Definition Index: 97411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_OnDestroy_mD453EAC288E407E3B412C235439D0E5CE8B1BA3D (SimpleCloudRecoEventHandler_t8CB31C2AAE2DD9FD145B29A562ED88FFB6B9480D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4035,7 +4302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_OnDestroy_mD
 		return;
 	}
 }
-// Method Definition Index: 97405
+// Method Definition Index: 97412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_OnInitialized_mBE55DA2971C23279819826DCD26D80E29E8BABC5 (SimpleCloudRecoEventHandler_t8CB31C2AAE2DD9FD145B29A562ED88FFB6B9480D* __this, CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* ___0_cloudRecoBehaviour, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4053,7 +4320,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_OnInitialize
 		return;
 	}
 }
-// Method Definition Index: 97406
+// Method Definition Index: 97413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_OnInitError_m73493B189B320058B60573874D1E7E6B7A3C4F3D (SimpleCloudRecoEventHandler_t8CB31C2AAE2DD9FD145B29A562ED88FFB6B9480D* __this, int32_t ___0_initError, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4077,7 +4344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_OnInitError_
 		return;
 	}
 }
-// Method Definition Index: 97407
+// Method Definition Index: 97414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_OnUpdateError_mCD27FA788213B1CD32F19F24B17F1275944DB2F3 (SimpleCloudRecoEventHandler_t8CB31C2AAE2DD9FD145B29A562ED88FFB6B9480D* __this, int32_t ___0_updateError, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4101,7 +4368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_OnUpdateErro
 		return;
 	}
 }
-// Method Definition Index: 97408
+// Method Definition Index: 97415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_OnStateChanged_m8B8E8CEBE01DD0B7583DD5E38691E322DA1CC09F (SimpleCloudRecoEventHandler_t8CB31C2AAE2DD9FD145B29A562ED88FFB6B9480D* __this, bool ___0_scanning, const RuntimeMethod* method) 
 {
 	{
@@ -4114,7 +4381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_OnStateChang
 		return;
 	}
 }
-// Method Definition Index: 97409
+// Method Definition Index: 97416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_OnNewSearchResult_m2B37B9240B7A89D97479E683DD73EF40F273F39F (SimpleCloudRecoEventHandler_t8CB31C2AAE2DD9FD145B29A562ED88FFB6B9480D* __this, CloudRecoSearchResult_tE583336F5452284FC4BA3A1B192007DE7DCCB42E* ___0_cloudRecoSearchResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4160,7 +4427,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 97410
+// Method Definition Index: 97417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler_OnGUI_mB9AB7E71721D9092DAADFA82E0D61AD603E91C2C (SimpleCloudRecoEventHandler_t8CB31C2AAE2DD9FD145B29A562ED88FFB6B9480D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4254,7 +4521,7 @@ IL_00a4:
 		return;
 	}
 }
-// Method Definition Index: 97411
+// Method Definition Index: 97418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler__ctor_m0D12EAE3BB770A2E24C640EB7229F0664D901F9F (SimpleCloudRecoEventHandler_t8CB31C2AAE2DD9FD145B29A562ED88FFB6B9480D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4279,7 +4546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecoEventHandler__ctor_m0D12E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97412
+// Method Definition Index: 97419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4295,7 +4562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97413
+// Method Definition Index: 97420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4311,7 +4578,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97414
+// Method Definition Index: 97421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3C4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4325,7 +4592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuforiaLicense_GetLicenseKey_m796D5
 		return _stringLiteralAD72253DE0936F278AB2486348EF09941F2FDEEE;
 	}
 }
-// Method Definition Index: 97415
+// Method Definition Index: 97422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4341,7 +4608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuforiaLicense__ctor_m094B92B3323DFFD79A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97416
+// Method Definition Index: 97423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4375,7 +4642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC
 		return L_6;
 	}
 }
-// Method Definition Index: 97417
+// Method Definition Index: 97424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4461,7 +4728,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97418
+// Method Definition Index: 97425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CreatureMover_get_Axis_m3B4867FC4E94D6FDA4D9357845A4F4817BEE3E52 (CreatureMover_t23A5C52CB2406B24A4AE74B12EB59361EDC07BF9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4470,7 +4737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_0;
 	}
 }
-// Method Definition Index: 97419
+// Method Definition Index: 97426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 CreatureMover_get_Target_m00283DAC0399505590DDBA59F66D0DFCA0A2F583 (CreatureMover_t23A5C52CB2406B24A4AE74B12EB59361EDC07BF9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4479,7 +4746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_0;
 	}
 }
-// Method Definition Index: 97420
+// Method Definition Index: 97427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CreatureMover_get_IsRun_mA0C430E7793B982DD9C22451092D506D7E0FEE03 (CreatureMover_t23A5C52CB2406B24A4AE74B12EB59361EDC07BF9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4488,7 +4755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CreatureMover_get_IsRun_mA0C430E7793B982
 		return L_0;
 	}
 }
-// Method Definition Index: 97421
+// Method Definition Index: 97428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreatureMover_OnValidate_mD8FC99E8AE72C8860D0607FF98F6A256B158E27B (CreatureMover_t23A5C52CB2406B24A4AE74B12EB59361EDC07BF9* __this, const RuntimeMethod* method) 
 {
 	MovementHandler_tB5C108671B90DC13A2137FEE50BCEBF420FD7D79* G_B2_0 = NULL;
@@ -4532,7 +4799,7 @@ IL_0038:
 		return;
 	}
 }
-// Method Definition Index: 97422
+// Method Definition Index: 97429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreatureMover_Awake_mBE89E7BEB4F196CB1F2D3E2889BB2C856FF16949 (CreatureMover_t23A5C52CB2406B24A4AE74B12EB59361EDC07BF9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4584,7 +4851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreatureMover_Awake_mBE89E7BEB4F196CB1F2
 		return;
 	}
 }
-// Method Definition Index: 97423
+// Method Definition Index: 97430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreatureMover_Update_mB30FA7ED3878A37425019902E16248FF83A8CC19 (CreatureMover_t23A5C52CB2406B24A4AE74B12EB59361EDC07BF9* __this, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -4644,7 +4911,7 @@ IL_0048:
 		return;
 	}
 }
-// Method Definition Index: 97424
+// Method Definition Index: 97431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreatureMover_OnAnimatorIK_m91CDE1A56EE4D8B46408527248BE31051B8FF12B (CreatureMover_t23A5C52CB2406B24A4AE74B12EB59361EDC07BF9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4658,7 +4925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreatureMover_OnAnimatorIK_m91CDE1A56EE4
 		return;
 	}
 }
-// Method Definition Index: 97425
+// Method Definition Index: 97432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreatureMover_SetInput_mE1F46C95F965DA495040249205AB2908D3EA2D32 (CreatureMover_t23A5C52CB2406B24A4AE74B12EB59361EDC07BF9* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_axis, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_target, bool* ___2_isRun, bool* ___3_isJump, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4717,7 +4984,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 97426
+// Method Definition Index: 97433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreatureMover_OnControllerColliderHit_mE10536C96C83F850DE0509764622CA5F237A533F (CreatureMover_t23A5C52CB2406B24A4AE74B12EB59361EDC07BF9* __this, ControllerColliderHit_tD0B734CBE0E2B089339B14600EB5A80295F6DE92* ___0_hit, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -4756,7 +5023,7 @@ IL_002c:
 		return;
 	}
 }
-// Method Definition Index: 97427
+// Method Definition Index: 97434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreatureMover__ctor_mE6073146538EF9AEE0EA502D2579C012B5390A1A (CreatureMover_t23A5C52CB2406B24A4AE74B12EB59361EDC07BF9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4800,7 +5067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreatureMover__ctor_mE6073146538EF9AEE0E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97428
+// Method Definition Index: 97435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookWeight__ctor_m9495967FD619B277AD3CE8B1281B6F2A81FE4E84 (LookWeight_t65140157CC2A98DD65ED5F6C4462E50707E04285* __this, float ___0_weight, float ___1_body, float ___2_head, float ___3_eyes, const RuntimeMethod* method) 
 {
 	{
@@ -4835,7 +5102,7 @@ IL2CPP_EXTERN_C  void LookWeight__ctor_m9495967FD619B277AD3CE8B1281B6F2A81FE4E84
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97429
+// Method Definition Index: 97436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler__ctor_mC492BA2656C712132CCEAA1C37D01A1F92150D09 (MovementHandler_tB5C108671B90DC13A2137FEE50BCEBF420FD7D79* __this, CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* ___0_controller, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_transform, float ___2_walkSpeed, float ___3_runSpeed, float ___4_rotateSpeed, float ___5_jumpHeight, int32_t ___6_space, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4878,7 +5145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler__ctor_mC492BA2656C712132
 		return;
 	}
 }
-// Method Definition Index: 97430
+// Method Definition Index: 97437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler_SetStats_mAE700A8E774033F4D7461EEA2AC9FD27A37B4496 (MovementHandler_tB5C108671B90DC13A2137FEE50BCEBF420FD7D79* __this, float ___0_walkSpeed, float ___1_runSpeed, float ___2_rotateSpeed, float ___3_jumpHeight, int32_t ___4_space, const RuntimeMethod* method) 
 {
 	{
@@ -4898,7 +5165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler_SetStats_mAE700A8E774033
 		return;
 	}
 }
-// Method Definition Index: 97431
+// Method Definition Index: 97438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler_SetSurface_m15F194C0EDF96AC4C75F2A68107DB602EFA9EAA0 (MovementHandler_tB5C108671B90DC13A2137FEE50BCEBF420FD7D79* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_normal, const RuntimeMethod* method) 
 {
 	{
@@ -4910,7 +5177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler_SetSurface_m15F194C0EDF9
 		return;
 	}
 }
-// Method Definition Index: 97432
+// Method Definition Index: 97439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler_Move_m251ED66FCDA7F56AAF68DB73B038F354A1795D13 (MovementHandler_tB5C108671B90DC13A2137FEE50BCEBF420FD7D79* __this, float ___0_deltaTime, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_axis, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_target, bool ___3_isRun, bool ___4_isMoving, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___5_animAxis, bool* ___6_isAir, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -4977,7 +5244,7 @@ IL_0048:
 		return;
 	}
 }
-// Method Definition Index: 97433
+// Method Definition Index: 97440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler_ConvertMovement_mDCF25E514A5F5EBE1985978B7A2F8E7229CFD392 (MovementHandler_tB5C108671B90DC13A2137FEE50BCEBF420FD7D79* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_axis, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_targetForward, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_movement, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -5061,7 +5328,7 @@ IL_004a:
 		return;
 	}
 }
-// Method Definition Index: 97434
+// Method Definition Index: 97441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler_Displace_m64929BFFE8626C398D661EB3539D224183F76C31 (MovementHandler_tB5C108671B90DC13A2137FEE50BCEBF420FD7D79* __this, float ___0_deltaTime, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_movement, bool ___2_isRun, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -5116,7 +5383,7 @@ IL_0011:
 		return;
 	}
 }
-// Method Definition Index: 97435
+// Method Definition Index: 97442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler_CaculateGravity_m3929A50127CC382F0660C1D51960C0BE39442573 (MovementHandler_tB5C108671B90DC13A2137FEE50BCEBF420FD7D79* __this, float ___0_deltaTime, bool* ___1_isAir, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5175,7 +5442,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 97436
+// Method Definition Index: 97443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler_GenAnimationAxis_m3639F2CADE35649BA8F673175F13B98E71818EAE (MovementHandler_tB5C108671B90DC13A2137FEE50BCEBF420FD7D79* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_movement, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_animAxis, const RuntimeMethod* method) 
 {
 	{
@@ -5236,7 +5503,7 @@ IL_0041:
 		return;
 	}
 }
-// Method Definition Index: 97437
+// Method Definition Index: 97444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler_Turn_m0090642B22B5AAD9FDADB8F8E19766E28211352D (MovementHandler_tB5C108671B90DC13A2137FEE50BCEBF420FD7D79* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_targetForward, bool ___1_isMoving, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -5304,7 +5571,7 @@ IL_004e:
 		return;
 	}
 }
-// Method Definition Index: 97438
+// Method Definition Index: 97445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementHandler_UpdateRotation_m8276388183A9EFD2406B1668FACA44C3847C71C8 (MovementHandler_tB5C108671B90DC13A2137FEE50BCEBF420FD7D79* __this, float ___0_deltaTime, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5384,7 +5651,7 @@ IL_004a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97439
+// Method Definition Index: 97446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationHandler__ctor_m7E7B6B399EBBA883858AD78639A73EB157295B64 (AnimationHandler_t51EF4ED93D1966B93ECFBBAB1E6313204BDE01F8* __this, Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___0_animator, String_t* ___1_verticalID, String_t* ___2_stateID, const RuntimeMethod* method) 
 {
 	{
@@ -5408,7 +5675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationHandler__ctor_m7E7B6B399EBBA883
 		return;
 	}
 }
-// Method Definition Index: 97440
+// Method Definition Index: 97447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationHandler_Animate_mA02583E183F5DADB63E71D01A65723B6A15E2DE3 (AnimationHandler_t51EF4ED93D1966B93ECFBBAB1E6313204BDE01F8* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_axis, float ___1_state, float ___2_deltaTime, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -5464,7 +5731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationHandler_Animate_mA02583E183F5DA
 		return;
 	}
 }
-// Method Definition Index: 97441
+// Method Definition Index: 97448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationHandler_AnimateIK_m4F3FE8D31A7C2E56428B65B88D9DE2BAC95845B4 (AnimationHandler_t51EF4ED93D1966B93ECFBBAB1E6313204BDE01F8* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_target, LookWeight_t65140157CC2A98DD65ED5F6C4462E50707E04285* ___1_lookWeight, const RuntimeMethod* method) 
 {
 	{
@@ -5498,7 +5765,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationHandler_AnimateIK_m4F3FE8D31A7C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97442
+// Method Definition Index: 97449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovePlayerInput_Awake_m7925C07047B20EDA505D359226CC96EC36B6191C (MovePlayerInput_t1639CBBE916BF77AD7BED9C3C2261B128F98DFB5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5517,7 +5784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovePlayerInput_Awake_m7925C07047B20EDA5
 		return;
 	}
 }
-// Method Definition Index: 97443
+// Method Definition Index: 97450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovePlayerInput_Update_mB3AC12A888FE31252D52253073E4B0D9D4201164 (MovePlayerInput_t1639CBBE916BF77AD7BED9C3C2261B128F98DFB5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5529,7 +5796,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovePlayerInput_Update_mB3AC12A888FE3125
 		return;
 	}
 }
-// Method Definition Index: 97444
+// Method Definition Index: 97451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovePlayerInput_GatherInput_mB86889E5CA3008B0A3A5D0C3B7FA0F25130073D2 (MovePlayerInput_t1639CBBE916BF77AD7BED9C3C2261B128F98DFB5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5619,7 +5886,7 @@ IL_0064:
 		return;
 	}
 }
-// Method Definition Index: 97445
+// Method Definition Index: 97452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovePlayerInput_BindMover_m9D73FD7F4AEB8F8CB0F8011E985A1C4BC3ED00C3 (MovePlayerInput_t1639CBBE916BF77AD7BED9C3C2261B128F98DFB5* __this, CreatureMover_t23A5C52CB2406B24A4AE74B12EB59361EDC07BF9* ___0_mover, const RuntimeMethod* method) 
 {
 	{
@@ -5631,7 +5898,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovePlayerInput_BindMover_m9D73FD7F4AEB8
 		return;
 	}
 }
-// Method Definition Index: 97446
+// Method Definition Index: 97453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovePlayerInput_SetInput_mF1FBF793045CF0DAC335B56C548F696F3680BA78 (MovePlayerInput_t1639CBBE916BF77AD7BED9C3C2261B128F98DFB5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5689,7 +5956,7 @@ IL_0056:
 		return;
 	}
 }
-// Method Definition Index: 97447
+// Method Definition Index: 97454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovePlayerInput__ctor_mE5FC65900074A5ACF2FC87F2037D0F39E44B19E8 (MovePlayerInput_t1639CBBE916BF77AD7BED9C3C2261B128F98DFB5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5736,7 +6003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovePlayerInput__ctor_mE5FC65900074A5ACF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97448
+// Method Definition Index: 97455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PlayerCamera_get_Target_mA7C64B0896FF3EFCAF8EC808F2CF069D39CEFEEB (PlayerCamera_t6C9033A769AEA03B76887146E42755F4AEEC7192* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5748,7 +6015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 97449
+// Method Definition Index: 97456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlayerCamera_get_TargetDistance_m69958189E99B123431E64077D15E055B1CAEC645 (PlayerCamera_t6C9033A769AEA03B76887146E42755F4AEEC7192* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5756,7 +6023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlayerCamera_get_TargetDistance_m699581
 		return (20.0f);
 	}
 }
-// Method Definition Index: 97450
+// Method Definition Index: 97457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCamera_Awake_m10BF53581B6AF3B739A3A23706ECFA7546FCAFA7 (PlayerCamera_t6C9033A769AEA03B76887146E42755F4AEEC7192* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5821,7 +6088,7 @@ IL_005f:
 		return;
 	}
 }
-// Method Definition Index: 97451
+// Method Definition Index: 97458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCamera_SetInput_mB3D249D14B7254F67A9962A657DAE3388B3DE23D (PlayerCamera_t6C9033A769AEA03B76887146E42755F4AEEC7192* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_delta, float ___1_scroll, const RuntimeMethod* method) 
 {
 	{
@@ -5867,7 +6134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCamera_SetInput_mB3D249D14B7254F67
 		return;
 	}
 }
-// Method Definition Index: 97452
+// Method Definition Index: 97459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCamera__ctor_m0F7B7405CEC03E0839433EC26FC378028F62B0DA (PlayerCamera_t6C9033A769AEA03B76887146E42755F4AEEC7192* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5893,7 +6160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCamera__ctor_m0F7B7405CEC03E083943
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97453
+// Method Definition Index: 97460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_LateUpdate_m871CF8C0E9BD92D025217220FDE52B1B4B59BD03 (ThirdPersonCamera_t23550DAA2FF4EEDB808C817E27399A2F7BCD7C4B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5905,7 +6172,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_LateUpdate_m871CF8C0E9
 		return;
 	}
 }
-// Method Definition Index: 97454
+// Method Definition Index: 97461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_SetInput_mDF0F95F82E6483F598B709C3A48DAAB1B60AB8AE (ThirdPersonCamera_t23550DAA2FF4EEDB808C817E27399A2F7BCD7C4B* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_delta, float ___1_scroll, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5990,7 +6257,7 @@ IL_0061:
 		return;
 	}
 }
-// Method Definition Index: 97455
+// Method Definition Index: 97462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_Move_m15EB46669D76829468B4E4AE7EC1C3801F54701F (ThirdPersonCamera_t23550DAA2FF4EEDB808C817E27399A2F7BCD7C4B* __this, float ___0_deltaTime, const RuntimeMethod* method) 
 {
 	U3CU3Ec__DisplayClass6_0_tDE177F5BF1085E531891A4AB67DDE02479B6CDEA V_0;
@@ -6008,7 +6275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_Move_m15EB46669D768294
 		return;
 	}
 }
-// Method Definition Index: 97456
+// Method Definition Index: 97463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera__ctor_mCB0B298CC2FB54E41B384CD575515605ED223D3D (ThirdPersonCamera_t23550DAA2FF4EEDB808C817E27399A2F7BCD7C4B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6020,7 +6287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera__ctor_mCB0B298CC2FB54E
 		return;
 	}
 }
-// Method Definition Index: 97457
+// Method Definition Index: 97464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_U3CMoveU3Eg__cameraU7C6_0_m50675C74BEFA9F8E49B463DCE30F0DAF561808FB (ThirdPersonCamera_t23550DAA2FF4EEDB808C817E27399A2F7BCD7C4B* __this, U3CU3Ec__DisplayClass6_0_tDE177F5BF1085E531891A4AB67DDE02479B6CDEA* ___0_p, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -6090,7 +6357,7 @@ IL_0067:
 		return;
 	}
 }
-// Method Definition Index: 97458
+// Method Definition Index: 97465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_U3CMoveU3Eg__targetU7C6_1_m685EAC5C4BF2F78AD94F72563EA8A5E2CA58EC70 (ThirdPersonCamera_t23550DAA2FF4EEDB808C817E27399A2F7BCD7C4B* __this, U3CU3Ec__DisplayClass6_0_tDE177F5BF1085E531891A4AB67DDE02479B6CDEA* ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.2.6f1
+CRC: 2159958832
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 242ad51c38e3d34b94b2c8c17ee8183f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b3ebbe509e6dcec338c8f8fae2c6f1af
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c533e81b273010a0704629b543ee12e7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/Cartas/CartaPinguino.prefab
+- Assets/Cartas/CartaPinguino.png
+Dependencies: []

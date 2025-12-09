@@ -1249,6 +1249,7 @@ MonoBehaviour:
   txtAnimalDetectado: {fileID: 715261418}
   txtInfo: {fileID: 256859395}
   imageTarget: {fileID: 1047219773}
+  Canva: {fileID: 759883823}
   ImageTargetTemplate: {fileID: 1047219776}
 --- !u!114 &665063371
 MonoBehaviour:

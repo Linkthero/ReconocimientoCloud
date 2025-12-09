@@ -3,6 +3,7 @@ using System.IO;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 using Vuforia;
 using static UnityEngine.CullingGroup;
 using static Vuforia.CloudRecoBehaviour;
@@ -13,6 +14,7 @@ public class MetaDatos
     public string URL;
     public string puntuacion;
     public string info;
+    public string imgcarta;
 
     public static MetaDatos CreateFromJSON(string jsonString)
     {
@@ -26,6 +28,8 @@ public class Script : MonoBehaviour
     [SerializeField] public TextMeshProUGUI txtAnimalDetectado;
     [SerializeField] public TextMeshProUGUI txtInfo;
     [SerializeField] public GameObject imageTarget;
+    [SerializeField] public GameObject Canva;
+    private GameObject prefabCarta;
     private GameObject prefabAnimal;
     CloudRecoBehaviour mCloudRecoBehaviour;
     bool mIsScanning = false;
@@ -89,17 +93,26 @@ public class Script : MonoBehaviour
         MetaDatos datos;
         datos = MetaDatos.CreateFromJSON(cloudRecoSearchResult.MetaData);
 
+        //txtInfo.text = datos.imgcarta;
         //GameObject animal = GameObject.FindGameObjectWithTag("animal");
         //if (animal != null)
         //{
         //    Destroy(animal);
         //}
 
-        StartCoroutine(GetAssetBundle(datos.URL));
+        //obtenemos carta
+        StartCoroutine(GetAssetBundleCarta(datos.imgcarta));
+        
+
+        //obtenemos modelo 3d
+        //StartCoroutine(GetAssetBundleModelo(datos.URL));
+
         // Store the target metadata
         mTargetMetadata = datos.nombre;
         txtAnimalDetectado.text = datos.nombre;
-        txtInfo.text = datos.info;
+        //txtInfo.text = datos.info;
+
+        
         
 
         if(!Datos.instance.escaneados.Contains(datos.nombre))
@@ -177,7 +190,31 @@ public class Script : MonoBehaviour
     //    }
     //}
 
-    IEnumerator GetAssetBundle(string url)
+    IEnumerator GetAssetBundleCarta(string url)
+    {
+        UnityWebRequest www = UnityWebRequestAssetBundle.GetAssetBundle(url);
+        yield return www.SendWebRequest();
+
+        if (www.result != UnityWebRequest.Result.Success)
+        {
+            Debug.Log(www.error);  
+            txtInfo.text = "Error al cargar la carta.";
+        }
+        else
+        {
+            AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(www);
+            string[] allAssetNames = bundle.GetAllAssetNames();
+
+            string gameObjectModelo = Path.GetFileNameWithoutExtension(allAssetNames[0]).ToString();
+
+            GameObject objectFoundModelo = bundle.LoadAsset(gameObjectModelo) as GameObject;
+            txtInfo.text = "obtenemos carta";
+            prefabCarta = Instantiate(objectFoundModelo, Canva.transform.position , Canva.transform.rotation);
+            prefabCarta.transform.SetParent(Canva.transform);
+            txtInfo.text = "instanciamos carta";
+        }
+    }
+    IEnumerator GetAssetBundleModelo(string url)
     {
         UnityWebRequest www = UnityWebRequestAssetBundle.GetAssetBundle(url);
         yield return www.SendWebRequest();
@@ -190,9 +227,10 @@ public class Script : MonoBehaviour
         {
             AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(www);
             string[] allAssetNames = bundle.GetAllAssetNames();
-            string gameObjectName = Path.GetFileNameWithoutExtension(allAssetNames[0]).ToString();
-            GameObject objectFound = bundle.LoadAsset(gameObjectName) as GameObject;
-            prefabAnimal = Instantiate(objectFound, ImageTargetTemplate.transform.position , ImageTargetTemplate.transform.rotation);
+            string gameObjectModelo = Path.GetFileNameWithoutExtension(allAssetNames[0]).ToString();
+            GameObject objectFoundModelo = bundle.LoadAsset(gameObjectModelo) as GameObject;
+            
+            prefabAnimal = Instantiate(objectFoundModelo, ImageTargetTemplate.transform.position , ImageTargetTemplate.transform.rotation);
             prefabAnimal.transform.SetParent(ImageTargetTemplate.transform);
         }
     }

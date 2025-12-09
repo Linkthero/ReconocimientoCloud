@@ -12,6 +12,7 @@
             "name": "AnimationClip",
             "scenes": [
               "caballo",
+              "cartapinguino",
               "ciervo",
               "gallina",
               "gato",
@@ -26,6 +27,7 @@
             "name": "Animator",
             "scenes": [
               "caballo",
+              "cartapinguino",
               "ciervo",
               "gallina",
               "gato",
@@ -40,6 +42,7 @@
             "name": "AnimatorController",
             "scenes": [
               "caballo",
+              "cartapinguino",
               "ciervo",
               "gallina",
               "gato",
@@ -209,6 +212,7 @@
               "Assets/Scenes/Juego.unity",
               "Assets/Scenes/MenuInicio.unity",
               "caballo",
+              "cartapinguino",
               "ciervo",
               "gallina",
               "gato",
@@ -231,6 +235,7 @@
               "Assets/Scenes/Juego.unity",
               "Assets/Scenes/MenuInicio.unity",
               "caballo",
+              "cartapinguino",
               "ciervo",
               "gallina",
               "gato",
@@ -369,6 +374,7 @@
               "Assets/Scenes/Juego.unity",
               "Assets/Scenes/MenuInicio.unity",
               "caballo",
+              "cartapinguino",
               "ciervo",
               "gallina",
               "gato",
@@ -390,6 +396,7 @@
               "Assets/Scenes/Juego.unity",
               "Assets/Scenes/MenuInicio.unity",
               "caballo",
+              "cartapinguino",
               "ciervo",
               "gallina",
               "gato",
@@ -405,6 +412,7 @@
               "Assets/Scenes/Juego.unity",
               "Assets/Scenes/MenuInicio.unity",
               "caballo",
+              "cartapinguino",
               "ciervo",
               "gallina",
               "gato",
@@ -449,7 +457,8 @@
             "name": "RectTransform",
             "scenes": [
               "Assets/Scenes/Juego.unity",
-              "Assets/Scenes/MenuInicio.unity"
+              "Assets/Scenes/MenuInicio.unity",
+              "cartapinguino"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1521,7 +1530,8 @@
             "name": "CanvasRenderer",
             "scenes": [
               "Assets/Scenes/Juego.unity",
-              "Assets/Scenes/MenuInicio.unity"
+              "Assets/Scenes/MenuInicio.unity",
+              "cartapinguino"
             ],
             "dependencyType": 0,
             "icon": null
