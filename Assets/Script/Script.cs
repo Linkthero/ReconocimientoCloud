@@ -29,7 +29,8 @@ public class Script : MonoBehaviour
     [SerializeField] public TextMeshProUGUI txtInfo;
     [SerializeField] public GameObject imageTarget;
     [SerializeField] public GameObject Canva;
-    private GameObject prefabCarta;
+     private GameObject prefabCarta;
+
     private GameObject prefabAnimal;
     CloudRecoBehaviour mCloudRecoBehaviour;
     bool mIsScanning = false;
@@ -198,7 +199,7 @@ public class Script : MonoBehaviour
         if (www.result != UnityWebRequest.Result.Success)
         {
             Debug.Log(www.error);  
-            txtInfo.text = "Error al cargar la carta.";
+            txtInfo.text = "Error al cargar la carta." + www.error;
         }
         else
         {
@@ -209,11 +210,19 @@ public class Script : MonoBehaviour
 
             GameObject objectFoundModelo = bundle.LoadAsset(gameObjectModelo) as GameObject;
             txtInfo.text = "obtenemos carta";
-            prefabCarta = Instantiate(objectFoundModelo, Canva.transform.position , Canva.transform.rotation);
-            prefabCarta.transform.SetParent(Canva.transform);
-            txtInfo.text = "instanciamos carta";
+            try{
+                prefabCarta = Instantiate(objectFoundModelo, Canva.transform.position, Canva.transform.rotation);
+                prefabCarta.transform.SetParent(Canva.transform);
+                txtInfo.text = "instanciamos carta";
+            } catch(System.Exception e){
+                txtInfo.text = "Error al instanciar la carta." + e.Message; //es null
+            }
+
+            
         }
     }
+
+
     IEnumerator GetAssetBundleModelo(string url)
     {
         UnityWebRequest www = UnityWebRequestAssetBundle.GetAssetBundle(url);

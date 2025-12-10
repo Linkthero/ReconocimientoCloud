@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.2.6f1
+CRC: 3036092841
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7b398236d5e447f981a544795d75d6d7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1cfddeea06ce0ec573e0d0ec81ebe20e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1c1fc79f16b5945c0c7d684231cfda8f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Cartas/CartaPinguino.png
+Dependencies: []

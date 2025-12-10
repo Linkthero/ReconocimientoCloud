@@ -3646,7 +3646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_borrarAnimal_m0B8E0CFF9A483A567EE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:240>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:241>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___prefabAnimal;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3657,7 +3657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_borrarAnimal_m0B8E0CFF9A483A567EE
 		}
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:242>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:243>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___prefabAnimal;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
@@ -3665,7 +3665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Script_borrarAnimal_m0B8E0CFF9A483A567EE
 
 IL_0019:
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:244>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:245>
 		return;
 	}
 }
@@ -3783,7 +3783,7 @@ IL_0049:
 		L_9 = UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449(L_8, NULL);
 		if ((((int32_t)L_9) == ((int32_t)1)))
 		{
-			goto IL_0083;
+			goto IL_0093;
 		}
 	}
 	{
@@ -3798,96 +3798,102 @@ IL_0049:
 		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_12 = V_1;
 		NullCheck(L_12);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_13 = L_12->___txtInfo;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_14 = __this->___U3CwwwU3E5__2;
+		NullCheck(L_14);
+		String_t* L_15;
+		L_15 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_14, NULL);
+		String_t* L_16;
+		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral05876044D30FBF7643E8B456DE27C6F6C8D2D401, L_15, NULL);
 		NullCheck(L_13);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, _stringLiteral05876044D30FBF7643E8B456DE27C6F6C8D2D401);
-		goto IL_0114;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_16);
+		goto IL_0124;
 	}
 
-IL_0083:
+IL_0093:
 	{
 		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:205>
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_14 = __this->___U3CwwwU3E5__2;
-		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_15;
-		L_15 = DownloadHandlerAssetBundle_GetContent_m9E279B7987A8ADAB0D0B441BAB8C5A61C7DEB7C4(L_14, NULL);
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_17 = __this->___U3CwwwU3E5__2;
+		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_18;
+		L_18 = DownloadHandlerAssetBundle_GetContent_m9E279B7987A8ADAB0D0B441BAB8C5A61C7DEB7C4(L_17, NULL);
 		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:206>
-		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_16 = L_15;
-		NullCheck(L_16);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17;
-		L_17 = AssetBundle_GetAllAssetNames_m44504DB9E055412F0DF2071A769A243219708CC3(L_16, NULL);
+		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_19 = L_18;
+		NullCheck(L_19);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20;
+		L_20 = AssetBundle_GetAllAssetNames_m44504DB9E055412F0DF2071A769A243219708CC3(L_19, NULL);
 		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:208>
-		NullCheck(L_17);
-		int32_t L_18 = 0;
-		String_t* L_19 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
-		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
-		String_t* L_20;
-		L_20 = Path_GetFileNameWithoutExtension_m2D14CCBAB9C60DC8D32C2443CCE3D34644822FAF(L_19, NULL);
 		NullCheck(L_20);
-		String_t* L_21;
-		L_21 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_20);
-		V_2 = L_21;
+		int32_t L_21 = 0;
+		String_t* L_22 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		String_t* L_23;
+		L_23 = Path_GetFileNameWithoutExtension_m2D14CCBAB9C60DC8D32C2443CCE3D34644822FAF(L_22, NULL);
+		NullCheck(L_23);
+		String_t* L_24;
+		L_24 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_23);
+		V_2 = L_24;
 		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:210>
-		String_t* L_22 = V_2;
-		NullCheck(L_16);
-		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_23;
-		L_23 = AssetBundle_LoadAsset_m25926A405F3AB79A4DF2447F23A09957EC7F063E(L_16, L_22, NULL);
-		V_3 = ((GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)IsInstSealed((RuntimeObject*)L_23, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var));
+		String_t* L_25 = V_2;
+		NullCheck(L_19);
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_26;
+		L_26 = AssetBundle_LoadAsset_m25926A405F3AB79A4DF2447F23A09957EC7F063E(L_19, L_25, NULL);
+		V_3 = ((GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)IsInstSealed((RuntimeObject*)L_26, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var));
 		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:211>
-		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_24 = V_1;
-		NullCheck(L_24);
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_25 = L_24->___txtInfo;
-		NullCheck(L_25);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, _stringLiteral480BF97545E988EE5C923EC35B7BED2CB052A568);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:212>
-		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_26 = V_1;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = V_3;
-		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_28 = V_1;
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_27 = V_1;
+		NullCheck(L_27);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_28 = L_27->___txtInfo;
 		NullCheck(L_28);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = L_28->___Canva;
-		NullCheck(L_29);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
-		L_30 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_29, NULL);
-		NullCheck(L_30);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
-		L_31 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_30, NULL);
-		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_32 = V_1;
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_28, _stringLiteral480BF97545E988EE5C923EC35B7BED2CB052A568);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:212>
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_29 = V_1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = V_3;
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_31 = V_1;
+		NullCheck(L_31);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = L_31->___Canva;
 		NullCheck(L_32);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = L_32->___Canva;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33;
+		L_33 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_32, NULL);
 		NullCheck(L_33);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
-		L_34 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_33, NULL);
-		NullCheck(L_34);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_35;
-		L_35 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_34, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36;
-		L_36 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_27, L_31, L_35, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
-		NullCheck(L_26);
-		L_26->___prefabCarta = L_36;
-		Il2CppCodeGenWriteBarrier((void**)(&L_26->___prefabCarta), (void*)L_36);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:213>
-		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_37 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		L_34 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_33, NULL);
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_35 = V_1;
+		NullCheck(L_35);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = L_35->___Canva;
+		NullCheck(L_36);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
+		L_37 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_36, NULL);
 		NullCheck(L_37);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = L_37->___prefabCarta;
-		NullCheck(L_38);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39;
-		L_39 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_38, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38;
+		L_38 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_37, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39;
+		L_39 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_30, L_34, L_38, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		NullCheck(L_29);
+		L_29->___prefabCarta = L_39;
+		Il2CppCodeGenWriteBarrier((void**)(&L_29->___prefabCarta), (void*)L_39);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:213>
 		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_40 = V_1;
 		NullCheck(L_40);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = L_40->___Canva;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = L_40->___prefabCarta;
 		NullCheck(L_41);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
 		L_42 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_41, NULL);
-		NullCheck(L_39);
-		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_39, L_42, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:214>
 		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_43 = V_1;
 		NullCheck(L_43);
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_44 = L_43->___txtInfo;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_44 = L_43->___Canva;
 		NullCheck(L_44);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_44, _stringLiteral93BA68B3EADE86C4B767DABCEE1C33CB91EB7B5D);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45;
+		L_45 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_44, NULL);
+		NullCheck(L_42);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_42, L_45, NULL);
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:214>
+		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_46 = V_1;
+		NullCheck(L_46);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_47 = L_46->___txtInfo;
+		NullCheck(L_47);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_47, _stringLiteral93BA68B3EADE86C4B767DABCEE1C33CB91EB7B5D);
 	}
 
-IL_0114:
+IL_0124:
 	{
 		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:216>
 		return (bool)0;
@@ -3985,13 +3991,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetAssetBundleModeloU3Ed__19_MoveNext
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:219>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:220>
 		String_t* L_4 = __this->___url;
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5;
 		L_5 = UnityWebRequestAssetBundle_GetAssetBundle_mA08565578A5E7A07140D4C6327FD9B51E14D99F9(L_4, NULL);
 		__this->___U3CwwwU3E5__2 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CwwwU3E5__2), (void*)L_5);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:220>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:221>
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_6 = __this->___U3CwwwU3E5__2;
 		NullCheck(L_6);
 		UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* L_7;
@@ -4005,7 +4011,7 @@ IL_0017:
 IL_0049:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:222>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:223>
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_8 = __this->___U3CwwwU3E5__2;
 		NullCheck(L_8);
 		int32_t L_9;
@@ -4016,7 +4022,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:224>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:225>
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_10 = __this->___U3CwwwU3E5__2;
 		NullCheck(L_10);
 		String_t* L_11;
@@ -4028,16 +4034,16 @@ IL_0049:
 
 IL_0070:
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:228>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:229>
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_12 = __this->___U3CwwwU3E5__2;
 		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_13;
 		L_13 = DownloadHandlerAssetBundle_GetContent_m9E279B7987A8ADAB0D0B441BAB8C5A61C7DEB7C4(L_12, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:229>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:230>
 		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_14 = L_13;
 		NullCheck(L_14);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15;
 		L_15 = AssetBundle_GetAllAssetNames_m44504DB9E055412F0DF2071A769A243219708CC3(L_14, NULL);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:230>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:231>
 		NullCheck(L_15);
 		int32_t L_16 = 0;
 		String_t* L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
@@ -4048,13 +4054,13 @@ IL_0070:
 		String_t* L_19;
 		L_19 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_18);
 		V_2 = L_19;
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:231>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:232>
 		String_t* L_20 = V_2;
 		NullCheck(L_14);
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_21;
 		L_21 = AssetBundle_LoadAsset_m25926A405F3AB79A4DF2447F23A09957EC7F063E(L_14, L_20, NULL);
 		V_3 = ((GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)IsInstSealed((RuntimeObject*)L_21, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:233>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:234>
 		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_22 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = V_3;
 		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_24 = V_1;
@@ -4081,7 +4087,7 @@ IL_0070:
 		NullCheck(L_22);
 		L_22->___prefabAnimal = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&L_22->___prefabAnimal), (void*)L_32);
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:234>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:235>
 		Script_t16820696475B1CE5329D1A278120D55D1EAB0117* L_33 = V_1;
 		NullCheck(L_33);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = L_33->___prefabAnimal;
@@ -4100,7 +4106,7 @@ IL_0070:
 
 IL_00e1:
 	{
-		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:236>
+		//<source_info:C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/Script/Script.cs:237>
 		return (bool)0;
 	}
 }
