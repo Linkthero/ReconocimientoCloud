@@ -1762,6 +1762,12 @@ struct ParallelSortExtensions_tF77646D72EE1C34AC6F6FB0B0F1FA70634084C8D  : publi
 struct Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56  : public RuntimeObject
 {
 };
+struct PlayerInfo_tC66DD3EB75091432EAF7085658AC2B0065A41223  : public RuntimeObject
+{
+	String_t* ___link;
+	String_t* ___name;
+	String_t* ___text;
+};
 struct PropertyBagStore_tF76E67D0FF5460D8B59B033B6EB4E2A2E446024C  : public RuntimeObject
 {
 };
@@ -8635,10 +8641,6 @@ struct AndroidUIModeNight_t913D48AD5C226C85AB9A0D844677705F946A731D
 	int32_t ___value__;
 };
 struct AndroidUIModeType_t11665FD6F15C1B5060FF3085E50CAAB23CF90889 
-{
-	int32_t ___value__;
-};
-struct AnimationEventSource_t48460212F6BC00064115B85C42B656262118685E 
 {
 	int32_t ___value__;
 };
@@ -29989,6 +29991,13 @@ struct CullingJob_t4206A6B00371EC11303617597A8DA5BFCCF92681_marshaled_com
 	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___rendererMeshLodSettings;
 	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___rendererCrossFadeValues;
 };
+struct Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___pistas;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelPistas;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelTextoPistas;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___escaneados;
+};
 struct DefaultObserverEventHandler_t7CF27A0CC5B1FAEDDB5964C3A11F29C2A14E1FC0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	int32_t ___StatusFilter;
@@ -33882,6 +33891,10 @@ struct TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160_StaticFields
 struct TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39_StaticFields
 {
 	HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* ___k_searchedSpriteAssets;
+};
+struct Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_StaticFields
+{
+	Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92* ___instance;
 };
 struct TextGenerator_t6B84DC798596D3A9944DC346DD453C075EE62366_StaticFields
 {
@@ -39999,6 +40012,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11993[5] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11994[3] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11999[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11997[5] = 
 {
-	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
+	static_cast<int32_t>(offsetof(Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92, ___pistas)),static_cast<int32_t>(offsetof(Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92_StaticFields, ___instance)),static_cast<int32_t>(offsetof(Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92, ___panelPistas)),static_cast<int32_t>(offsetof(Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92, ___panelTextoPistas)),static_cast<int32_t>(offsetof(Datos_t367082BD4E5487713B17B8215A77DB35FBBB2A92, ___escaneados)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11999[3] = 
+{
+	static_cast<int32_t>(offsetof(PlayerInfo_tC66DD3EB75091432EAF7085658AC2B0065A41223, ___link)),static_cast<int32_t>(offsetof(PlayerInfo_tC66DD3EB75091432EAF7085658AC2B0065A41223, ___name)),static_cast<int32_t>(offsetof(PlayerInfo_tC66DD3EB75091432EAF7085658AC2B0065A41223, ___text)),};

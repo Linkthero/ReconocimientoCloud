@@ -328,6 +328,7 @@
               "Assets/Scenes/Juego.unity",
               "Assets/Scenes/MenuInicio.unity",
               "caballo",
+              "cartapinguino",
               "ciervo",
               "gallina",
               "gato",
@@ -510,6 +511,7 @@
               "Assets/Scenes/Juego.unity",
               "Assets/Scenes/MenuInicio.unity",
               "caballo",
+              "cartapinguino",
               "ciervo",
               "gallina",
               "gato",
@@ -1471,7 +1473,8 @@
             "name": "Font",
             "scenes": [
               "Assets/Scenes/Juego.unity",
-              "Assets/Scenes/MenuInicio.unity"
+              "Assets/Scenes/MenuInicio.unity",
+              "cartapinguino"
             ],
             "dependencyType": 0,
             "icon": null

@@ -8,12 +8,14 @@ using Vuforia;
 using static UnityEngine.CullingGroup;
 using static Vuforia.CloudRecoBehaviour;
 
+//ORDEN PINGUINO, CIERVO, GALLINA, PERRO, TIGRE, CABALLO, GATO 
 public class MetaDatos
 {
     public string nombre;
     public string URL;
     public string puntuacion;
     public string info;
+    public string modelocarta;
     public string imgcarta;
 
     public static MetaDatos CreateFromJSON(string jsonString)
@@ -30,6 +32,8 @@ public class Script : MonoBehaviour
     [SerializeField] public GameObject imageTarget;
     [SerializeField] public GameObject Canva;
      private GameObject prefabCarta;
+    private Texture2D imgCarta;
+    private GameObject modeloCartaTEMP;
 
     private GameObject prefabAnimal;
     CloudRecoBehaviour mCloudRecoBehaviour;
@@ -101,20 +105,20 @@ public class Script : MonoBehaviour
         //    Destroy(animal);
         //}
 
-        //obtenemos carta
-        StartCoroutine(GetAssetBundleCarta(datos.imgcarta));
+        StartCoroutine(GetAssetBundleImgCarta(datos.imgcarta));
+        //obtenemos modelo carta
+        StartCoroutine(GetAssetBundleModeloCarta(datos.modelocarta, datos.nombre));
         
 
         //obtenemos modelo 3d
-        //StartCoroutine(GetAssetBundleModelo(datos.URL));
+        StartCoroutine(GetAssetBundleModelo(datos.URL));
+
+        Canva.transform.GetChild(0).gameObject.SetActive(true);
 
         // Store the target metadata
         mTargetMetadata = datos.nombre;
         txtAnimalDetectado.text = datos.nombre;
         //txtInfo.text = datos.info;
-
-        
-        
 
         if(!Datos.instance.escaneados.Contains(datos.nombre))
         {
@@ -191,34 +195,54 @@ public class Script : MonoBehaviour
     //    }
     //}
 
-    IEnumerator GetAssetBundleCarta(string url)
+    IEnumerator GetAssetBundleModeloCarta(string url, string n)
     {
         UnityWebRequest www = UnityWebRequestAssetBundle.GetAssetBundle(url);
         yield return www.SendWebRequest();
 
         if (www.result != UnityWebRequest.Result.Success)
         {
-            Debug.Log(www.error);  
+            Debug.Log(www.error);
             txtInfo.text = "Error al cargar la carta." + www.error;
         }
         else
         {
+            yield return new WaitForSeconds(1);
             AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(www);
             string[] allAssetNames = bundle.GetAllAssetNames();
 
             string gameObjectModelo = Path.GetFileNameWithoutExtension(allAssetNames[0]).ToString();
 
             GameObject objectFoundModelo = bundle.LoadAsset(gameObjectModelo) as GameObject;
+            //objectFoundModelo.GetComponent<RawImage>().texture = Resources.Load<Texture2D>("Assets/Resources/CartaPinguino.png");
+
             txtInfo.text = "obtenemos carta";
-            try{
+            try
+            {
                 prefabCarta = Instantiate(objectFoundModelo, Canva.transform.position, Canva.transform.rotation);
+
                 prefabCarta.transform.SetParent(Canva.transform);
                 txtInfo.text = "instanciamos carta";
-            } catch(System.Exception e){
+            }
+            catch (System.Exception e)
+            {
                 txtInfo.text = "Error al instanciar la carta." + e.Message; //es null
             }
 
-            
+            try
+            {
+                objectFoundModelo.GetComponent<RawImage>().texture = imgCarta;
+                objectFoundModelo.GetComponent<TextMeshProUGUI>().text += " " + n;
+                if (objectFoundModelo.GetComponent<RawImage>().texture == null)
+                    txtInfo.text = " no carga imagen";
+                else
+                    txtInfo.text = "carga imagen";
+            }
+            catch (System.Exception e)
+            {
+                txtInfo.text = "no carga imagen";
+
+            }
         }
     }
 
@@ -239,8 +263,33 @@ public class Script : MonoBehaviour
             string gameObjectModelo = Path.GetFileNameWithoutExtension(allAssetNames[0]).ToString();
             GameObject objectFoundModelo = bundle.LoadAsset(gameObjectModelo) as GameObject;
             
-            prefabAnimal = Instantiate(objectFoundModelo, ImageTargetTemplate.transform.position , ImageTargetTemplate.transform.rotation);
-            prefabAnimal.transform.SetParent(ImageTargetTemplate.transform);
+            modeloCartaTEMP = objectFoundModelo;
+            //prefabAnimal = Instantiate(objectFoundModelo, ImageTargetTemplate.transform.position , ImageTargetTemplate.transform.rotation);
+            //prefabAnimal.transform.SetParent(ImageTargetTemplate.transform);
+        }
+    }
+
+    IEnumerator GetAssetBundleImgCarta(string url)
+    {
+        UnityWebRequest www = UnityWebRequestAssetBundle.GetAssetBundle(url);
+        yield return www.SendWebRequest();
+
+        if (www.result != UnityWebRequest.Result.Success)
+        {
+            Debug.Log(www.error);
+        }
+        else
+        {
+            AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(www);
+            string[] allAssetNames = bundle.GetAllAssetNames();
+            string gameObject = Path.GetFileNameWithoutExtension(allAssetNames[0]).ToString();
+            Texture2D ibjectFound = bundle.LoadAsset(gameObject) as Texture2D;
+            imgCarta = ibjectFound;
+            if(imgCarta != null)
+            {
+                txtInfo.text = "CARGA IMAGEEN";
+            }
+            
         }
     }
 
@@ -250,5 +299,13 @@ public class Script : MonoBehaviour
         {
             Destroy(prefabAnimal);
         }
+    }
+
+    public void QuitarPanelCarta()
+    {
+        Canva.transform.GetChild(0).gameObject.SetActive(false);
+        Destroy(prefabCarta);
+        prefabAnimal = Instantiate(modeloCartaTEMP, ImageTargetTemplate.transform.position, ImageTargetTemplate.transform.rotation);
+        prefabAnimal.transform.SetParent(ImageTargetTemplate.transform);
     }
 }
