@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.2.6f1
+CRC: 2472792588
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 09d3ef078b00ee2ce15144977dd14b76
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1cfddeea06ce0ec573e0d0ec81ebe20e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9bede1da474c522b708f70c8af25af57
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Cartas/CartaCiervo.png
+Dependencies: []

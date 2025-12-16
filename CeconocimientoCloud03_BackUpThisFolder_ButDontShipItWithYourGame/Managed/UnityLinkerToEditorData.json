@@ -11,6 +11,7 @@
           {
             "name": "AnimationClip",
             "scenes": [
+              "Assets/Scenes/Juego.unity",
               "caballo",
               "cartapinguino",
               "ciervo",
@@ -26,6 +27,7 @@
           {
             "name": "Animator",
             "scenes": [
+              "Assets/Scenes/Juego.unity",
               "caballo",
               "cartapinguino",
               "ciervo",
@@ -41,6 +43,7 @@
           {
             "name": "AnimatorController",
             "scenes": [
+              "Assets/Scenes/Juego.unity",
               "caballo",
               "cartapinguino",
               "ciervo",
@@ -216,7 +219,13 @@
               "ciervo",
               "gallina",
               "gato",
+              "imgcartacaballo",
+              "imgcartaciervo",
+              "imgcartagallina",
+              "imgcartagato",
+              "imgcartaperro",
               "imgcartapinguino",
+              "imgcartatigre",
               "perro",
               "pinguino",
               "tigre"
@@ -418,7 +427,13 @@
               "ciervo",
               "gallina",
               "gato",
+              "imgcartacaballo",
+              "imgcartaciervo",
+              "imgcartagallina",
+              "imgcartagato",
+              "imgcartaperro",
               "imgcartapinguino",
+              "imgcartatigre",
               "perro",
               "pinguino",
               "tigre"

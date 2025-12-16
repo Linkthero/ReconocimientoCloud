@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.2.6f1
+CRC: 4062136324
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a88c1aed85d1a6c1c8f2750a4d9ecaea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1cfddeea06ce0ec573e0d0ec81ebe20e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 491ce50b61b2f493a06d9825c3d5def1
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Cartas/CartaPerro.png
+Dependencies: []

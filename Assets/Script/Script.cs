@@ -1,4 +1,6 @@
+using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
 using System.IO;
 using TMPro;
 using UnityEngine;
@@ -15,7 +17,6 @@ public class MetaDatos
     public string URL;
     public string puntuacion;
     public string info;
-    public string modelocarta;
     public string imgcarta;
 
     public static MetaDatos CreateFromJSON(string jsonString)
@@ -31,10 +32,10 @@ public class Script : MonoBehaviour
     [SerializeField] public TextMeshProUGUI txtInfo;
     [SerializeField] public GameObject imageTarget;
     [SerializeField] public GameObject Canva;
-     private GameObject prefabCarta;
+    [SerializeField] private GameObject prefabCarta;
+    private GameObject cartaInstanciada;
     private Texture2D imgCarta;
     private GameObject modeloCartaTEMP;
-
     private GameObject prefabAnimal;
     CloudRecoBehaviour mCloudRecoBehaviour;
     bool mIsScanning = false;
@@ -42,6 +43,12 @@ public class Script : MonoBehaviour
 
     public ImageTargetBehaviour ImageTargetTemplate;
 
+    private string[] listAnimales = { "pinguino", "ciervo", "gallina", "perro", "tigre", "caballo", "gato" };
+    private List<string> animalesEscaneados = new List<string>();
+    private string nextAnimal = "";
+    private bool primerEscaneo = true;
+
+    //private bool finJuego = false;
 
     // Register cloud reco callbacks
     void Awake()
@@ -98,6 +105,15 @@ public class Script : MonoBehaviour
         MetaDatos datos;
         datos = MetaDatos.CreateFromJSON(cloudRecoSearchResult.MetaData);
 
+        if(nextAnimal == datos.nombre || primerEscaneo)
+        {
+            primerEscaneo = false;
+        }
+        else
+        {
+            txtInfo.text = "ese no es el siguiente animal ";
+            return;
+        }
         //txtInfo.text = datos.imgcarta;
         //GameObject animal = GameObject.FindGameObjectWithTag("animal");
         //if (animal != null)
@@ -105,9 +121,10 @@ public class Script : MonoBehaviour
         //    Destroy(animal);
         //}
 
-        StartCoroutine(GetAssetBundleImgCarta(datos.imgcarta));
+        //descargamos imagen
+        StartCoroutine(GetAssetBundleImgCarta(datos.imgcarta, datos.nombre));
         //obtenemos modelo carta
-        StartCoroutine(GetAssetBundleModeloCarta(datos.modelocarta, datos.nombre));
+        //StartCoroutine(GetAssetBundleModeloCarta(datos.modelocarta, datos.nombre));
         
 
         //obtenemos modelo 3d
@@ -118,7 +135,7 @@ public class Script : MonoBehaviour
         // Store the target metadata
         mTargetMetadata = datos.nombre;
         txtAnimalDetectado.text = datos.nombre;
-        //txtInfo.text = datos.info;
+        txtInfo.text = datos.info;
 
         if(!Datos.instance.escaneados.Contains(datos.nombre))
         {
@@ -132,12 +149,27 @@ public class Script : MonoBehaviour
         mCloudRecoBehaviour.enabled = false;
         //reconocerImagen();
 
-
-        // Build augmentation based on target 
-        if (ImageTargetTemplate)
+        for (int i = 0; i < listAnimales.Length; i++)
         {
-            /* Enable the new result with the same ImageTargetBehaviour: */
-            mCloudRecoBehaviour.EnableObservers(cloudRecoSearchResult, ImageTargetTemplate.gameObject);
+            if (datos.nombre == listAnimales[i])
+            {
+                animalesEscaneados.Add(datos.nombre);
+                nextAnimal = (i + 1 < listAnimales.Length) ? listAnimales[i + 1] : listAnimales[0]; //cogemos el siguiente animal a escanear
+
+                if (animalesEscaneados.Count == listAnimales.Length)
+                {
+                    //finJuego = true;
+                    txtInfo.text = "¡Felicidades! Has escaneado todos los animales.";
+                }
+            }
+
+
+            // Build augmentation based on target 
+            if (ImageTargetTemplate)
+            {
+                /* Enable the new result with the same ImageTargetBehaviour: */
+                mCloudRecoBehaviour.EnableObservers(cloudRecoSearchResult, ImageTargetTemplate.gameObject);
+            }
         }
     }
 
@@ -269,8 +301,9 @@ public class Script : MonoBehaviour
         }
     }
 
-    IEnumerator GetAssetBundleImgCarta(string url)
+    IEnumerator GetAssetBundleImgCarta(string url, string n)
     {
+        //txtInfo.text = "cargando img";
         UnityWebRequest www = UnityWebRequestAssetBundle.GetAssetBundle(url);
         yield return www.SendWebRequest();
 
@@ -280,16 +313,22 @@ public class Script : MonoBehaviour
         }
         else
         {
+            //txtInfo.text = "descargando";
             AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(www);
             string[] allAssetNames = bundle.GetAllAssetNames();
             string gameObject = Path.GetFileNameWithoutExtension(allAssetNames[0]).ToString();
             Texture2D ibjectFound = bundle.LoadAsset(gameObject) as Texture2D;
             imgCarta = ibjectFound;
-            if(imgCarta != null)
+            //txtInfo.text = "descargada";
+            if (imgCarta != null)
             {
-                txtInfo.text = "CARGA IMAGEEN";
+                //txtInfo.text = "no nula";
+                cartaInstanciada = Instantiate(prefabCarta, Canva.transform.position, Canva.transform.rotation);
+                cartaInstanciada.transform.SetParent(Canva.transform);
+                cartaInstanciada.GetComponent<RawImage>().texture = imgCarta;
+                
+                //txtInfo.text = "CARGA IMAGEEN";
             }
-            
         }
     }
 
@@ -297,6 +336,7 @@ public class Script : MonoBehaviour
     {
         if(prefabAnimal != null)
         {
+            Destroy(modeloCartaTEMP);
             Destroy(prefabAnimal);
         }
     }
@@ -304,7 +344,7 @@ public class Script : MonoBehaviour
     public void QuitarPanelCarta()
     {
         Canva.transform.GetChild(0).gameObject.SetActive(false);
-        Destroy(prefabCarta);
+        Destroy(cartaInstanciada);
         prefabAnimal = Instantiate(modeloCartaTEMP, ImageTargetTemplate.transform.position, ImageTargetTemplate.transform.rotation);
         prefabAnimal.transform.SetParent(ImageTargetTemplate.transform);
     }

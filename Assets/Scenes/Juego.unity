@@ -1326,6 +1326,7 @@ MonoBehaviour:
   txtInfo: {fileID: 256859395}
   imageTarget: {fileID: 1047219773}
   Canva: {fileID: 759883823}
+  prefabCarta: {fileID: 4478670019341215352, guid: c23502e46f39c1843b9352bbbd6240c7, type: 3}
   ImageTargetTemplate: {fileID: 1047219776}
 --- !u!114 &665063371
 MonoBehaviour:

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.2.6f1
+CRC: 333599877
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5056a85cdf62ac1264b1278e76bc6911
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1cfddeea06ce0ec573e0d0ec81ebe20e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 00ab7935c16026aff755141f6abb24d3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Cartas/CartaGallina.png
+Dependencies: []

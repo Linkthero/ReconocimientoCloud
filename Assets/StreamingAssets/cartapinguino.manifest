@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.2.6f1
-CRC: 73328244
+CRC: 3391455277
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 15c40d53d04d059af57c65401c490511
+    Hash: 95a5538826830b8f11c5eff5be2ac0f3
   TypeTreeHash:
     serializedVersion: 2
     Hash: e4cb9a09c76aff188ce172a0be3a88fa
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 5df8f801cdaad4f811261ea284f036bc
+    Hash: 76f1967b49054a0fd379bd535ac7fbde
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -75,6 +75,6 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 Assets:
-- Assets/Cartas/CartaPinguino.prefab
+- Assets/Prefabs/Carta.prefab
 Dependencies:
 - C:/Users/Adri/Proyectos Unity/Reconocimiento-Cloud/Assets/StreamingAssets/imgcartapinguino
